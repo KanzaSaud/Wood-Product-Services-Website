@@ -64,8 +64,8 @@ The original Figma template/design is attributed to [Daria Korkishko](https://ww
 
 Read the complete license deed at [creativecommons.org/licenses/by/4.0](https://creativecommons.org/licenses/by/4.0/) and the [legal code](https://creativecommons.org/licenses/by/4.0/legalcode.en).
 
-This license notice applies to the referenced Figma template/design. It does not automatically apply to third-party photographs, fonts, icons, source code, or other assets included in this repository; those materials may have separate rights or licenses.
+This license notice applies only to the referenced Figma template/design. Copyright in the original website source code and implementation is owned by the developer and is not granted under the Figma template's CC BY 4.0 license. Third-party photographs, fonts, icons, SVGs, or other assets may have separate rights or licenses.
 
 ## License notice
 
-No separate open-source license is granted for the website source code by this README. Before redistributing the complete project, verify the rights for the Figma template, fonts, photographs, icons, and all other included assets.
+Copyright in the website source code and original implementation is retained by the developer. All rights reserved unless expressly stated otherwise. No separate open-source license is granted for the source code by this README. Before redistributing the complete project, verify the rights for the Figma template, fonts, photographs, icons, and all other included assets.
