@@ -1453,14 +1453,32 @@ footer .second-line a:hover::after {
         margin-left: 0;
     }
 
+    .adv-img-and-text {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1.5rem;
+    }
+
+    .adv-text-container {
+        padding-right: 5px;
+        order: 1;
+        height: auto;
+        gap: 11px;
+    }
+
+    .adv-img-container {
+        order: 2;
+    }
+
+    .line-break-adv{
+        display: none;
+    }
+
     .adv-img {
         border-radius: 14px;
         width: 350px;
         height: 221px;
-    }
-
-    .adv-text-container {
-        gap: 11px;
     }
 
     .adv-text-container p {
@@ -1472,7 +1490,11 @@ footer .second-line a:hover::after {
         padding: 10px 17px;
     }
 
-    button a{
+    .adv-content-container{
+        gap: 46px;
+    }
+
+    button a {
         display: block;
         font-size: 15px;
     }
