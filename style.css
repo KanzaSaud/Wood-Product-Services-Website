@@ -1358,10 +1358,44 @@ footer .second-line a:hover::after {
     .wood-types-container {
         margin-top: 42px;
         height: 600px;
+        padding-left: 19px;
     }
 
     .wood-types-container h1 {
-        margin-left:0px;
+        margin-left: 0px;
+    }
+
+    .wood {
+        gap: 20px;
+    }
+
+    .wood-catalog {
+        gap: 16px;
+        width: 90px;
+        /* border: 2px solid #fff; */
+    }
+
+    .wood-catalog #Ash-UX {
+        /* border: 2px solid #fff; */
+        margin-left: 0;
+    }
+
+    .wood-types .wood-title {
+        font-size: 20px;
+    }
+
+    .wood-types .icon {
+        height: 13px;
+        width: 13px;
+    }
+
+    .wood-types .text-box {
+        gap: 9px;
+        /* margin-top: 10px; */
+    }
+
+    .wood-types .text-line {
+        font-size: 15px;
     }
 
 }
