@@ -4,8 +4,8 @@ const navbarIcon = navbarToggle.querySelector('img');
 
 const menuIcon = navbarIcon.src;
 const closeIcon = navbarIcon.src.includes('/pages/')
-    ? '../resources/cross.svg'
-    : 'resources/cross.svg';
+    ? '../resources/cross-white.svg'
+    : 'resources/cross-white.svg';
 
 navbarToggle.addEventListener('click', () => {
     const isOpen = navbarToggle.classList.toggle('active');

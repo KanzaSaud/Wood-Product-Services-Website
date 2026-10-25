@@ -37,6 +37,7 @@ The implementation may differ slightly from the original Figma design in the fol
 
 - Hover effects were added to buttons and navbar links.
 - A footer was added to the 404 page even though it was not included in the original Figma design.
+- On mobile screens, the navigation toggle uses the same SVG menu icon but also a close icon, and the open menu displays as a full-screen translucent overlay.
 - Small gaps, spacing, and padding values may vary slightly.
 - The wooden pattern graphic may appear behind assets rather than above them, depending on the section and responsive layout.
 - Some image, typography, button, and component dimensions may differ slightly.
