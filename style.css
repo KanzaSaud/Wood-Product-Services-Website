@@ -1461,7 +1461,7 @@ footer .second-line a:hover::after {
     }
 
     .adv-text-container {
-        padding-right: 5px;
+        padding-right: 42px;
         order: 1;
         height: auto;
         gap: 11px;
