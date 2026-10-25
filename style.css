@@ -1403,8 +1403,12 @@ footer .second-line a:hover::after {
         min-height: 0;
         height: 400px;
         /* padding-left: 19px; */
-        gap: 46px;
-        /* 20px */
+        gap: 24px;
+    }
+
+    .our-work-container h1 {
+        margin-left: 19px;
+        /* border: 2px solid #fff; */
     }
 
     .our-work-container .main-picture {
@@ -1413,7 +1417,7 @@ footer .second-line a:hover::after {
     }
 
     .our-work-arrow-icon {
-        margin: auto 3rem;
+        margin: auto 0;
         height: 26.64px;
         width: 26.64px;
     }
