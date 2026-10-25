@@ -1398,4 +1398,42 @@ footer .second-line a:hover::after {
         font-size: 15px;
     }
 
+    .our-work-container {
+        margin-top: 42px;
+        min-height: 0;
+        height: 400px;
+        /* padding-left: 19px; */
+        gap: 46px;
+        /* 20px */
+    }
+
+    .our-work-container .main-picture {
+        width: 301.08px;
+        height: 200.9px;
+    }
+
+    .our-work-arrow-icon {
+        margin: auto 3rem;
+        height: 26.64px;
+        width: 26.64px;
+    }
+
+    .scroll-position-container {
+        width: 58.86px;
+        height: 13.42px;
+        align-self: center;
+    }
+
+    .scroll-position-container img {
+        align-self: center;
+        width: 20px;
+        height: 20px;
+        top: 0;
+    }
+
+    .carousel-container {
+        /* width: 348px;
+        height: 315.23px; */
+        gap: 0px;
+    }
 }
