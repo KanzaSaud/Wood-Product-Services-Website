@@ -993,7 +993,7 @@ footer .second-line a:hover::after {
         z-index: 999;
     }
 
-    .navbar-toggle.active .bar:nth-child(2) {
+    /* .navbar-toggle.active .bar:nth-child(2) {
         opacity: 0;
     }
 
@@ -1003,7 +1003,7 @@ footer .second-line a:hover::after {
 
     .navbar-toggle.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
-    }
+    } */
 }
 
 @media (max-width: 480px) {
