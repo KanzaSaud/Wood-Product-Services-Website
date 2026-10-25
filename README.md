@@ -40,7 +40,8 @@ The implementation may differ slightly from the original Figma design in the fol
 - On mobile screens, the navigation toggle uses the same SVG menu icon but also a close icon, and the open menu displays as a full-screen translucent overlay.
 - Small gaps, spacing, and padding values may vary slightly.
 - The wooden pattern graphic may appear behind assets rather than above them, depending on the section and responsive layout.
-- Some image, typography, button, and component dimensions may differ slightly.
+- Some image, typography, gaps, button, and component dimensions may differ slightly.
+- The scrolling image carousel SVG dimensions were adjusted to maintain a minimalist, modern visual look.
 - Responsive behavior was adapted for browser widths and practical HTML/CSS implementation.
 
 ## Figma template attribution and license
