@@ -993,6 +993,13 @@ footer .second-line a:hover::after {
         z-index: 999;
     }
 
+    .navbar-toggle img {
+        border-radius: 0;
+        display: block;
+    width: 28px;
+    height: 28px;
+    }
+
     /* .navbar-toggle.active .bar:nth-child(2) {
         opacity: 0;
     }
