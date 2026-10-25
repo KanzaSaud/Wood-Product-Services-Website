@@ -1440,4 +1440,42 @@ footer .second-line a:hover::after {
         height: 315.23px; */
         gap: 0px;
     }
+
+    .adv-working-with-us-container {
+        padding: 0 11px;
+        margin-top: 42px;
+        min-height: 0;
+        height: 600px;
+        gap: 24px;
+    }
+
+    .adv-working-with-us-container h1 {
+        margin-left: 0;
+    }
+
+    .adv-img {
+        border-radius: 14px;
+        width: 350px;
+        height: 221px;
+    }
+
+    .adv-text-container {
+        gap: 11px;
+    }
+
+    .adv-text-container p {
+        font-size: 15px;
+    }
+
+    .adv-content-container .receive-button {
+        /* margin-top: 20px; */
+        padding: 10px 17px;
+    }
+
+    button a{
+        display: block;
+        font-size: 15px;
+    }
+
+
 }
