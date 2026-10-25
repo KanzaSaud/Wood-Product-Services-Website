@@ -36,6 +36,7 @@ The website was implemented from a Figma template created by [Daria Korkishko](h
 The implementation may differ slightly from the original Figma design in the following ways:
 
 - Hover effects were added to buttons and navbar links.
+- A footer was added to the 404 page even though it was not included in the original Figma design.
 - Small gaps, spacing, and padding values may vary slightly.
 - The wooden pattern graphic may appear behind assets rather than above them, depending on the section and responsive layout.
 - Some image, typography, button, and component dimensions may differ slightly.
