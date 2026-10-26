@@ -1471,7 +1471,7 @@ footer .second-line a:hover::after {
         order: 2;
     }
 
-    .line-break-adv{
+    .line-break-adv {
         display: none;
     }
 
@@ -1490,7 +1490,7 @@ footer .second-line a:hover::after {
         padding: 10px 17px;
     }
 
-    .adv-content-container{
+    .adv-content-container {
         gap: 46px;
     }
 
@@ -1500,4 +1500,57 @@ footer .second-line a:hover::after {
     }
 
 
+    .about-us-content{
+        padding: 0 11px;
+        margin-top: 42px;
+        min-height: 0;
+        height: 674px;
+        gap: 24px;
+        width: 420px;
+    }
+
+    .about-us-copy{
+        padding: 45px 17px;
+    }
+
+    .about-us-content .about-us-text{
+        font-size: 15px;
+        width: 283px;
+    }
+
+    .line-break-abt{
+        display: none;
+    }
+
+    .about-us-copy{
+        width: 420px;
+        height: 674px;
+    }
+
+    .about-us-gallery #about-us-img-1{
+        width: 111px;
+        height: 111px;
+        top: 298px;
+    }
+
+    .about-us-gallery #about-us-img-2{
+        width: 182.81px;
+        height: 182.81px;
+        left: 32px;
+        top: 321.42px;
+    }
+
+    .about-us-gallery #about-us-img-2-back {
+        width: 182.81px;
+        height: 182.81px;
+    }
+
+    .about-us-gallery #about-us-img-3{
+        width: 111px;
+        height: 111px;
+    }
+
+   
+
+    
 }
