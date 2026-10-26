@@ -46,6 +46,7 @@ The implementation may differ slightly from the original Figma design in the fol
 - On mobile screens, the footer address text was slightly revised for improved clarity and presentation.
 - The footer text displayed in the other language was replaced with the **Privacy Policy** link as in laptop/desktop screen footer.
 - The mobile footer contact details were reordered so that the phone number appears before the location.
+- The wood types showcase uses a side-by-side layout rather than horizontal scrolling, keeping the available wood varieties visible together.
 
 ## Figma template attribution and license
 
