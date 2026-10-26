@@ -1271,6 +1271,13 @@ footer .second-line a:hover::after {
         font-size: 30px;
     }
 
+    .full-container {
+        background-image: url("resources/wooden-pattern-graphics.svg");
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: auto 100%;
+    }
+
     .hero {
         min-height: 0;
         height: 600px;
@@ -1651,7 +1658,7 @@ footer .second-line a:hover::after {
         font-size: 15px;
     }
 
-    #location-info{
+    #location-info {
         margin-bottom: 0;
     }
 
@@ -1664,11 +1671,12 @@ footer .second-line a:hover::after {
         height: 24px;
     }
 
-    footer .second-line{
+    footer .second-line {
         /* border: 2px solid #fff; */
         /* text-align: center; */
         margin: auto;
     }
+
     footer .second-line a {
         /* width: 100%; */
         /* border: 2px solid #fff; */
