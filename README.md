@@ -43,6 +43,9 @@ The implementation may differ slightly from the original Figma design in the fol
 - Some image, typography, gaps, button, and component dimensions may differ slightly.
 - The scrolling image carousel SVG dimensions were adjusted to maintain a minimalist, modern visual look.
 - Responsive behavior was adapted for browser widths and practical HTML/CSS implementation.
+- On mobile screens, the footer address text was slightly revised for improved clarity and presentation.
+- The footer text displayed in the other language was replaced with the **Privacy Policy** link as in laptop/desktop screen footer.
+- The mobile footer contact details were reordered so that the phone number appears before the location.
 
 ## Figma template attribution and license
 
