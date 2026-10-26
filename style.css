@@ -726,15 +726,12 @@ textarea {
 
 .questions-container textarea {
     padding-top: .85rem;
+    min-height: 16.063rem;
+    resize: vertical;
 }
 
 .questions-container input {
     height: 77px;
-}
-
-.questions-container textarea {
-    min-height: 16.063rem;
-    resize: vertical;
 }
 
 form input:focus,
@@ -1559,6 +1556,74 @@ footer .second-line a:hover::after {
         top: 534px;
     }
 
+    .questions-container {
+        height: 500px;
+        padding: 0 20px;
+        gap: 12px;
+    }
+
+    .questions-container h1 {
+        text-align: left;
+        margin-right: 0;
+    }
+
+    .questions-container .questions-content {
+        flex-direction: column;
+        gap: 46px;
+    }
+
+    .questions-container .fields {
+        order: 1;
+        width: 100%;
+    }
+
+    .questions-container .questions-text {
+        /* border: 2px solid #fff; */
+        width: 272px;
+        padding-right: 0px;
+        text-align: left;
+    }
+
+    .questions-container img {
+        width: 100px;
+        height: 100px;
+        bottom: -40px;
+
+    }
+
+    .questions-text {
+        font-size: 15px;
+    }
+
+    form {
+        gap: 12px;
+        width: 324px;
+        height: 40px;
+    }
+
+    .questions-container input,
+    textarea {
+        font-size: 13px;
+        line-height: 139.4%;
+        border-radius: 42px;
+        border: 2px solid #728BAD;
+        padding: 12px 27px;
+    }
+
+    .questions-container textarea {
+        padding-top: 14px;
+        min-height: 134px;
+        resize: vertical;
+        border-radius: 14px;
+    }
+
+    .questions-container #send-button {
+    margin-top: 23px;
+    padding: 0px 20px;
+    font-size: 15px;
+    min-height: 34px;
+    line-height: auto;
+    }
 
 
 
