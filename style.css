@@ -1500,40 +1500,44 @@ footer .second-line a:hover::after {
     }
 
 
-    .about-us-content{
-        padding: 0 11px;
+    .about-us-content {
+        /* padding: 0 11px; */
+        padding: 0 36px 0 11px;
         margin-top: 42px;
         min-height: 0;
         height: 674px;
-        gap: 24px;
-        width: 420px;
+        /* gap: 24px; */
+        width: 347px;
     }
 
-    .about-us-copy{
+    .about-us-copy {
         padding: 45px 17px;
+        gap: 38px;
     }
 
-    .about-us-content .about-us-text{
+    .about-us-content .about-us-text {
         font-size: 15px;
         width: 283px;
     }
 
-    .line-break-abt{
+    .line-break-abt {
         display: none;
     }
 
-    .about-us-copy{
+    .about-us-copy {
         width: 420px;
         height: 674px;
+        justify-content: flex-start;
     }
 
-    .about-us-gallery #about-us-img-1{
+    .about-us-gallery #about-us-img-1 {
         width: 111px;
         height: 111px;
         top: 298px;
+        left: 200px;
     }
 
-    .about-us-gallery #about-us-img-2{
+    .about-us-gallery #about-us-img-2 {
         width: 182.81px;
         height: 182.81px;
         left: 32px;
@@ -1543,14 +1547,19 @@ footer .second-line a:hover::after {
     .about-us-gallery #about-us-img-2-back {
         width: 182.81px;
         height: 182.81px;
+        top: 316px;
+        left: 39.05px;
+        border-left: 2px solid #fff;
     }
 
-    .about-us-gallery #about-us-img-3{
+    .about-us-gallery #about-us-img-3 {
         width: 111px;
         height: 111px;
+        left: 161px;
+        top: 534px;
     }
 
-   
 
-    
+
+
 }
