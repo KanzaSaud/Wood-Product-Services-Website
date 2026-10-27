@@ -1217,7 +1217,7 @@ footer .second-line a:hover::after {
     }
 
     .navbar-toggle {
-        display: block;
+        display: flex;
         position: relative;
         z-index: 999;
     }
@@ -1248,6 +1248,12 @@ footer .second-line a:hover::after {
 @media (max-width: 425px) {
     .navbar-container .navbar-menu li a {
         font-size: 16px;
+    }
+
+    #non-transparent-navbar {
+        height: 82px;
+        padding: 45px 24px;
+        border-radius: 0 0 30px 30px;
     }
 
     img {
