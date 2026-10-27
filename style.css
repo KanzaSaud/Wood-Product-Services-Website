@@ -1249,6 +1249,10 @@ footer .second-line a:hover::after {
     .navbar-container .navbar-menu li a {
         font-size: 16px;
     }
+    
+    .navbar{
+        padding: 0 8px 0 8px;
+    }
 
     #non-transparent-navbar {
         height: 82px;
