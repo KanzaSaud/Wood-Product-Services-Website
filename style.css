@@ -1636,8 +1636,6 @@ footer .second-line a:hover::after {
         height: 470px;
         /* border: 2px solid #fff; */
         margin-top: 2rem;
-        /* justify-content: center; */
-        /* align-content: center; */
         align-items: center;
     }
 
