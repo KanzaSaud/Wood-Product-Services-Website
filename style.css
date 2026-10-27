@@ -1697,8 +1697,8 @@ footer .second-line a:hover::after {
     }
 
     .contact-left{
-        height: 195px;
-        justify-content: none;
+        height: 180px;
+        padding-bottom: 0;
     }
 
     .contact-left h1{
@@ -1706,7 +1706,7 @@ footer .second-line a:hover::after {
     }
 
     .contact-content{
-        gap: 28px;
+        gap: 10px;
     }
 
     .contact-right img{
