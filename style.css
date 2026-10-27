@@ -1634,7 +1634,6 @@ footer .second-line a:hover::after {
 
     .container-404 {
         height: 470px;
-        /* border: 2px solid #fff; */
         margin-top: 2rem;
         align-items: center;
     }
@@ -1666,15 +1665,10 @@ footer .second-line a:hover::after {
     }
 
     .container-404 img {
-        /* border: 2px solid #fff; */
-        /* margin: -10px 0; */
         height: 110px;
-        /* position: absolute; */
     }
 
     #img-404 {
-        position: absolute;
-        /* height: 100vh; */
         z-index: -1;
     }
 
@@ -1688,8 +1682,6 @@ footer .second-line a:hover::after {
     #button-404 {
         margin-top: 32px;
     }
-
-
 
     footer {
         width: 100%;
@@ -1731,15 +1723,10 @@ footer .second-line a:hover::after {
     }
 
     footer .second-line {
-        /* border: 2px solid #fff; */
-        /* text-align: center; */
         margin: auto;
     }
 
     footer .second-line a {
-        /* width: 100%; */
-        /* border: 2px solid #fff; */
         font-size: 15px;
-
     }
 }
