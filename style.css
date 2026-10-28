@@ -1437,7 +1437,7 @@ footer .second-line a:hover::after {
         margin-top: 64px;
         min-height: 0;
         height: 600px;
-        gap: 24px;
+        gap: 48px;
     }
 
     .adv-working-with-us-container h1 {
@@ -1445,32 +1445,44 @@ footer .second-line a:hover::after {
     }
 
     .adv-img-and-text {
-        display: flex;
-        flex-direction: column;
-        align-items: stretch;
-        gap: 1.5rem;
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* align-items: stretch; */
+        gap: 42px;
     }
 
-    .adv-text-container {
-        padding-right: 0px;
+    /* .adv-text-container {
+        padding-right: 150px;
         padding-left: 30px;
         order: 1;
         height: auto;
         gap: 20px;
+    } */
+
+    .adv-text-container {
+        padding-right: 0px;
+        /* padding-left: 30px; */
+        /* order: 1; */
+        height: auto;
+        gap: 20px;
     }
 
-    .adv-img-container {
+    /* .adv-img-container {
         order: 2;
     }
 
     .line-break-adv {
         display: none;
-    }
+    } */
+
+
 
     .adv-img {
-        border-radius: 14px;
-        width: 350px;
-        height: 221px;
+        border-radius: 25px;
+        /* width: 632px;
+        height: 400px; */
+        width: 325px;
+        height: 206px;
     }
 
     .adv-text-container p {
@@ -1479,16 +1491,17 @@ footer .second-line a:hover::after {
 
     .adv-content-container .receive-button {
         /* margin-top: 20px; */
-        padding: 10px 17px;
+        padding: 10px 36px;
     }
 
     .adv-content-container {
-        gap: 46px;
+        gap: 100px;
     }
 
+    
     button a {
         display: block;
-        font-size: 15px;
+        font-size: 20px;
     }
 
 
