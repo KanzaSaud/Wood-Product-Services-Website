@@ -1269,7 +1269,7 @@ footer .second-line a:hover::after {
 
     .hero-copy {
         height: 400px;
-        justify-content: flex-start;
+        justify-content: center;
     }
 
     .hero-gallery {
@@ -1291,7 +1291,8 @@ footer .second-line a:hover::after {
         height: 120px;
         left: 140px;
         /* top: 220px; */
-        top: 235px;
+        /* top: 235px; */
+        top: 260px;
     }
 
     .hero-gallery .img-3 {
@@ -1308,7 +1309,7 @@ footer .second-line a:hover::after {
 
     .hero-content .hero-text {
         font-size: 20px;
-        margin-top: ;
+        margin-top: 15px;
     }
 
     .solid-wood-break {
@@ -1316,7 +1317,7 @@ footer .second-line a:hover::after {
     }
 
     .hero-content .order-btn {
-        margin-top: 20px;
+        margin-top: 64px;
         padding: 10px auto;
     }
 
