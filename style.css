@@ -1226,6 +1226,523 @@ footer .second-line a:hover::after {
         min-height: 100vh;
         background-position: center;
     }
+
+    .navbar-container .navbar-menu li a {
+        font-size: 16px;
+    }
+
+    .navbar {
+        padding: 0 8px 0 8px;
+    }
+
+    #non-transparent-navbar {
+        height: 82px;
+        padding: 45px 24px;
+        border-radius: 0 0 30px 30px;
+    }
+
+    img {
+        border-radius: 14px;
+    }
+
+    #BIOCWT-logo {
+        height: 36px;
+        border-radius: 0;
+
+    }
+
+    .hero-image {
+        width: 440px;
+        height: 680px;
+        object-fit: cover;
+        border-radius: 41px 35px 0px 0px;
+    }
+
+    .full-container h1 {
+        font-size: 30px;
+    }
+
+    .hero {
+        min-height: 0;
+        height: 600px;
+    }
+
+    .hero-gallery {
+        position: relative;
+        width: 50%;
+        height: 100%;
+        /* border: 2px solid #fff; */
+    }
+
+    .hero-gallery .img-1 {
+        width: 90px;
+        height: 90px;
+        top: 38px;
+        left: 192px;
+    }
+
+    .hero-gallery .img-2 {
+        width: 90px;
+        height: 90px;
+        left: 210px;
+        /* top: 220px; */
+        top: -130px;
+    }
+
+    .hero-gallery .img-3 {
+        width: 90px;
+        height: 90px;
+        top: -20px;
+        left: 25px;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+        top: 7.8rem;
+        width: 326px;
+        height: 280px;
+        padding: 16px;
+        border-radius: 14px 0 0 14px;
+        overflow: visible;
+    }
+
+    .hero-content .hero-text {
+        font-size: 15px;
+    }
+
+    .solid-wood-break {
+        display: none;
+    }
+
+    .hero-content .order-btn {
+        margin-top: 20px;
+        padding: 10px 17px;
+    }
+
+    .hero-content .order-btn a {
+        display: block;
+        font-size: 15px;
+        line-height: auto;
+    }
+
+    .hero-content .hero-vertical-line {
+        display: inline-block;
+        width: 100%;
+        height: 1px;
+        border-left: none;
+        border-top: 1px solid #f5f5f5;
+        margin: 0;
+        align-self: stretch;
+    }
+
+    .wood-types-container img {
+        height: 90px;
+        width: 90px;
+        /* border-radius: 42px; */
+    }
+
+    .wood-types-container {
+        margin-top: 42px;
+        height: 600px;
+        padding-left: 19px;
+    }
+
+    .wood-types-container h1 {
+        margin-left: 0px;
+    }
+
+    .wood {
+        gap: 20px;
+    }
+
+    .wood-catalog {
+        gap: 16px;
+        width: 90px;
+        /* border: 2px solid #fff; */
+    }
+
+    .wood-catalog #Ash-UX {
+        /* border: 2px solid #fff; */
+        margin-left: 0;
+    }
+
+    .wood-types .wood-title {
+        font-size: 20px;
+    }
+
+    .wood-types .icon {
+        height: 13px;
+        width: 13px;
+    }
+
+    .wood-types .text-box {
+        gap: 9px;
+        /* margin-top: 10px; */
+    }
+
+    .wood-types .text-line {
+        font-size: 15px;
+    }
+
+    .our-work-container {
+        margin-top: 42px;
+        min-height: 0;
+        height: 400px;
+        /* padding-left: 19px; */
+        gap: 24px;
+    }
+
+    .our-work-container h1 {
+        margin-left: 19px;
+        /* border: 2px solid #fff; */
+    }
+
+    .our-work-container .main-picture {
+        width: 301.08px;
+        height: 200.9px;
+    }
+
+    .our-work-arrow-icon {
+        margin: auto 0;
+        height: 26.64px;
+        width: 26.64px;
+    }
+
+    .scroll-position-container {
+        width: 58.86px;
+        height: 13.42px;
+        align-self: center;
+    }
+
+    .scroll-position-container img {
+        align-self: center;
+        width: 20px;
+        height: 20px;
+        top: 0;
+    }
+
+    .carousel-container {
+        /* width: 348px;
+        height: 315.23px; */
+        gap: 0px;
+    }
+
+    .adv-working-with-us-container {
+        padding: 0 11px;
+        margin-top: 42px;
+        min-height: 0;
+        height: 600px;
+        gap: 24px;
+    }
+
+    .adv-working-with-us-container h1 {
+        margin-left: 0;
+    }
+
+    .adv-img-and-text {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1.5rem;
+    }
+
+    .adv-text-container {
+        padding-right: 42px;
+        order: 1;
+        height: auto;
+        gap: 11px;
+    }
+
+    .adv-img-container {
+        order: 2;
+    }
+
+    .line-break-adv {
+        display: none;
+    }
+
+    .adv-img {
+        border-radius: 14px;
+        width: 350px;
+        height: 221px;
+    }
+
+    .adv-text-container p {
+        font-size: 15px;
+    }
+
+    .adv-content-container .receive-button {
+        /* margin-top: 20px; */
+        padding: 10px 17px;
+    }
+
+    .adv-content-container {
+        gap: 46px;
+    }
+
+    button a {
+        display: block;
+        font-size: 15px;
+    }
+
+
+    .about-us-content {
+        /* padding: 0 11px; */
+        padding: 0 36px 0 11px;
+        margin-top: 42px;
+        min-height: 0;
+        height: 674px;
+        /* gap: 24px; */
+        width: 347px;
+    }
+
+    .about-us-copy {
+        padding: 45px 17px;
+        gap: 38px;
+    }
+
+    .about-us-content .about-us-text {
+        font-size: 15px;
+        width: 283px;
+    }
+
+    .line-break-abt {
+        display: none;
+    }
+
+    .about-us-copy {
+        width: 420px;
+        height: 674px;
+        justify-content: flex-start;
+    }
+
+    .about-us-gallery #about-us-img-1 {
+        width: 111px;
+        height: 111px;
+        top: 298px;
+        left: 200px;
+    }
+
+    .about-us-gallery #about-us-img-2 {
+        width: 182.81px;
+        height: 182.81px;
+        left: 32px;
+        top: 321.42px;
+    }
+
+    .about-us-gallery #about-us-img-2-back {
+        width: 182.81px;
+        height: 182.81px;
+        top: 316px;
+        left: 39.05px;
+        border-left: 2px solid #fff;
+    }
+
+    .about-us-gallery #about-us-img-3 {
+        width: 111px;
+        height: 111px;
+        left: 161px;
+        top: 534px;
+    }
+
+    .questions-container {
+        height: 500px;
+        padding: 0 20px;
+        gap: 12px;
+    }
+
+    .questions-container h1 {
+        text-align: left;
+        margin-right: 0;
+    }
+
+    .questions-container .questions-content {
+        flex-direction: column;
+        gap: 46px;
+    }
+
+    .questions-container .fields {
+        order: 1;
+        width: 100%;
+    }
+
+    .questions-container .questions-text {
+        /* border: 2px solid #fff; */
+        width: 272px;
+        padding-right: 0px;
+        text-align: left;
+    }
+
+    .questions-container img {
+        width: 100px;
+        height: 100px;
+        bottom: -40px;
+
+    }
+
+    .questions-text {
+        font-size: 15px;
+    }
+
+    form {
+        gap: 12px;
+        width: 324px;
+        height: 40px;
+    }
+
+    .questions-container input,
+    textarea {
+        font-size: 13px;
+        line-height: 139.4%;
+        border-radius: 42px;
+        border: 2px solid #728BAD;
+        padding: 12px 27px;
+    }
+
+    .questions-container textarea {
+        padding-top: 14px;
+        min-height: 134px;
+        resize: vertical;
+        border-radius: 14px;
+    }
+
+    .questions-container #send-button {
+        margin-top: 23px;
+        padding: 0px 20px;
+        font-size: 15px;
+        min-height: 34px;
+        line-height: auto;
+    }
+
+    .container-404 {
+        height: 470px;
+        margin-top: 2rem;
+        align-items: center;
+    }
+
+    .heading-404 {
+        gap: 110px;
+        height: 100px;
+        justify-content: center;
+        position: relative;
+        margin-bottom: 45px;
+        margin-top: 0;
+    }
+
+    #text-404 {
+        font-size: 100px;
+
+    }
+
+    .container-404 h1 {
+        font-size: 30px;
+        line-height: 107.9%;
+        margin-bottom: 12px;
+    }
+
+    .container-404 p {
+        font-size: 15px;
+        line-height: 130.4%;
+        /* margin-bottom: 32px; */
+    }
+
+    .container-404 img {
+        height: 110px;
+    }
+
+    #img-404 {
+        z-index: -1;
+    }
+
+    #graphics-404 {
+        height: 110px;
+        position: absolute;
+        top: -10px;
+
+    }
+
+    #button-404 {
+        margin-top: 32px;
+    }
+
+    .contact-container {
+        height: 550px;
+        margin-top: 0;
+        min-height: 0;
+        padding: 0 24px 0 24px;
+    }
+
+    .contact-content-container {
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .contact-left {
+        height: 180px;
+        padding-bottom: 0;
+    }
+
+    .contact-left h1 {
+        margin-bottom: 40px;
+    }
+
+    .contact-content {
+        gap: 10px;
+    }
+
+    .contact-right img {
+        width: 347px;
+        height: 230px;
+    }
+
+    footer {
+        width: 100%;
+        height: 352px;
+        padding: 0;
+        padding-top: 72px;
+        gap: 0px;
+    }
+
+    footer .first-line {
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+    }
+
+    footer .first-line #BIOCWT-logo {
+        height: 69px;
+        margin-bottom: 42px;
+    }
+
+    .contact-info {
+        gap: 10px;
+        margin-bottom: 16px;
+        justify-self: center;
+        font-size: 15px;
+    }
+
+    #location-info {
+        margin-bottom: 0;
+    }
+
+    footer #phone-call-info {
+        margin-right: 0;
+    }
+
+    .footer-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    footer .second-line {
+        margin: auto;
+    }
+
+    footer .second-line a {
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -1247,8 +1764,8 @@ footer .second-line a:hover::after {
     .navbar-container .navbar-menu li a {
         font-size: 16px;
     }
-    
-    .navbar{
+
+    .navbar {
         padding: 0 8px 0 8px;
     }
 
@@ -1684,32 +2201,32 @@ footer .second-line a:hover::after {
         margin-top: 32px;
     }
 
-    .contact-container{
+    .contact-container {
         height: 550px;
         margin-top: 0;
         min-height: 0;
         padding: 0 24px 0 24px;
     }
 
-    .contact-content-container{
+    .contact-content-container {
         flex-direction: column;
         gap: 48px;
     }
 
-    .contact-left{
+    .contact-left {
         height: 180px;
         padding-bottom: 0;
     }
 
-    .contact-left h1{
+    .contact-left h1 {
         margin-bottom: 40px;
     }
 
-    .contact-content{
+    .contact-content {
         gap: 10px;
     }
 
-    .contact-right img{
+    .contact-right img {
         width: 347px;
         height: 230px;
     }
