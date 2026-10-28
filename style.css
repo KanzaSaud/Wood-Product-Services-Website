@@ -1333,28 +1333,30 @@ footer .second-line a:hover::after {
     }
 
     .wood-types-container img {
-        height: 90px;
-        width: 90px;
+        height: 120px;
+        width: 120px;
+
         /* border-radius: 42px; */
     }
 
     .wood-types-container {
-        margin-top: 42px;
-        height: 600px;
+        margin-top: 80px;
+        /* height: 600px; */
+        height: 97vh;
         padding-left: 19px;
     }
 
     .wood-types-container h1 {
-        margin-left: 0px;
+        margin-left: 30px;
     }
 
     .wood {
-        gap: 20px;
+        gap: 26px;
     }
 
     .wood-catalog {
-        gap: 16px;
-        width: 90px;
+        gap: 24px;
+        width: 120px;
         /* border: 2px solid #fff; */
     }
 
@@ -1364,25 +1366,25 @@ footer .second-line a:hover::after {
     }
 
     .wood-types .wood-title {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .wood-types .icon {
-        height: 13px;
-        width: 13px;
+        height: 17px;
+        width: 17px;
     }
 
     .wood-types .text-box {
-        gap: 9px;
+        gap: 13.5px;
         /* margin-top: 10px; */
     }
 
     .wood-types .text-line {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .our-work-container {
-        margin-top: 42px;
+        /* margin-top: 42px; */
         min-height: 0;
         height: 400px;
         /* padding-left: 19px; */
@@ -1390,7 +1392,7 @@ footer .second-line a:hover::after {
     }
 
     .our-work-container h1 {
-        margin-left: 19px;
+        margin-left: 69px;
         /* border: 2px solid #fff; */
     }
 
