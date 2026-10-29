@@ -808,6 +808,10 @@ button a {
     align-self: center;
 }
 
+/* #contact-questions-for-mobile{
+    display: none;
+} */
+
 /* --------------- 404 page ------------- */
 .container-404 {
     display: flex;
@@ -1025,6 +1029,13 @@ footer .second-line a:hover::after {
 }
 
 /* Responsive Style */
+
+@media (min-width: 426px){
+  #contact-questions-for-mobile {
+    display: none;
+  }
+}
+
 @media (max-width: 1470px) {
     /* .hero-gallery .img-1 {
         top: 0;
@@ -1768,7 +1779,7 @@ footer .second-line a:hover::after {
     }
 
     .contact-content-container {
-        flex-direction: column;
+        /* flex-direction: column; */
         gap: 48px;
     }
 
@@ -1813,7 +1824,9 @@ footer .second-line a:hover::after {
         gap: 10px;
         margin-bottom: 16px;
         justify-self: center;
-        font-size: 15px;
+        /* font-size: 15px; */
+        font-size: 20px;
+
     }
 
     #location-info {
@@ -1825,8 +1838,10 @@ footer .second-line a:hover::after {
     }
 
     .footer-icon {
-        width: 24px;
-        height: 24px;
+        /* width: 24px;
+        height: 24px; */
+        width: 30px;
+        height: 30px;
     }
 
     footer .second-line {
@@ -2381,6 +2396,6 @@ footer .second-line a:hover::after {
     }
 
     footer .second-line a {
-        font-size: 15px;
+        font-size: 13px;
     }
 }
