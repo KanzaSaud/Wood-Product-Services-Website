@@ -1512,7 +1512,8 @@ footer .second-line a:hover::after {
         min-height: 0;
         /* height: 674px; */
         /* height: 635px; */
-        height: 600px;
+        /* height: 600px; */
+        height: 550px;
         /* gap: 24px; */
         width: 707px;
         /* padding-left: 19px; */
@@ -1547,7 +1548,8 @@ footer .second-line a:hover::after {
         /* font-size: 20px;
         width: 283px;
         padding-left: 13px; */
-        padding-right: 17px;
+        /* padding-right: 17px; */
+        padding-right: 5px;
         font-size: 20px;
         width: 283px;
         padding-left: 13px;
@@ -1573,19 +1575,26 @@ footer .second-line a:hover::after {
         height: 250px;
         left: 32px;
         top: 321.42px; */
-        width: 225px;
+        /* width: 225px;
         height: 225px;
-        left: 355px;
+        left: 355px; */
+        width: 200px;
+        height: 200px;
+        left: 390px;
         top: 165px;
     }
 
     .about-us-gallery #about-us-img-2-back {
         /* width: 182.81px;
         height: 182.81px; */
-        max-width: 225px;
+        /* max-width: 225px;
         height: 225px;
         top: 155px;
-        left: 365px;
+        left: 365px; */
+        max-width: 200px;
+        height: 200px;
+        top: 155px;
+        left: 400px;
         /* border-left: 2px solid #fff; */
         border-radius: 14px;
         /* z-index: 20; */
@@ -1594,60 +1603,76 @@ footer .second-line a:hover::after {
     .about-us-gallery #about-us-img-3 {
         width: 135px;
         height: 135px;
-        left: 490px;
+        left: 495px;
         /* top: 534px; */
         /* top: 445px; */
-        top: 420px;
+        top: 387px;
+        /* left: 490px; */
+        /* top: 534px; */
+        /* top: 445px; */
+        /* top: 420px; */
     }
 
     .questions-container {
         height: 500px;
-        padding: 0 20px;
-        gap: 12px;
+        padding: 0 10px 0 50px;
+        gap: 22px;
     }
 
     .questions-container h1 {
-        text-align: left;
-        margin-right: 0;
+        /* text-align: left; */
+        text-align: right;
+        /* margin-right: 0; */
+        margin-right: 45px;
     }
 
     .questions-container .questions-content {
-        flex-direction: column;
+        /* flex-direction: column; */
         gap: 46px;
     }
 
     .questions-container .fields {
-        order: 1;
-        width: 100%;
+        /* order: 1; */
+        /* width: 100%; */
+        width: 324px;
     }
 
     .questions-container .questions-text {
         /* border: 2px solid #fff; */
         width: 272px;
         padding-right: 0px;
-        text-align: left;
+        text-align: right;
     }
 
     .questions-container img {
-        width: 100px;
+        /* width: 100px;
         height: 100px;
-        bottom: -40px;
-
+        bottom: -40px; */
+        width: 255px;
+        height: 255px;
+        bottom: -85px;
+        left: 465px;
     }
 
     .questions-text {
-        font-size: 15px;
+        font-size: 20px;
+    }
+
+    .questions-br {
+        display: none;
     }
 
     form {
-        gap: 12px;
+        /* gap: 12px; */
+        gap: 23px;
         width: 324px;
         height: 40px;
     }
 
     .questions-container input,
     textarea {
-        font-size: 13px;
+        /* font-size: 13px; */
+        font-size: 18px;
         line-height: 139.4%;
         border-radius: 42px;
         border: 2px solid #728BAD;
@@ -1664,7 +1689,8 @@ footer .second-line a:hover::after {
     .questions-container #send-button {
         margin-top: 23px;
         padding: 0px 20px;
-        font-size: 15px;
+        /* font-size: 15px; */
+        font-size: 20px;
         min-height: 34px;
         line-height: auto;
     }
@@ -1813,7 +1839,7 @@ footer .second-line a:hover::after {
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
     .navbar-container .navbar-menu li a {
         font-size: 16px;
     }
@@ -1979,16 +2005,22 @@ footer .second-line a:hover::after {
         height: 400px;
         /* padding-left: 19px; */
         gap: 24px;
+        padding-left: 0px;
     }
 
     .our-work-container h1 {
-        margin-left: 19px;
+        /* margin-left: 19px; */
+        margin-left: 38px;
         /* border: 2px solid #fff; */
     }
 
     .our-work-container .main-picture {
         width: 301.08px;
         height: 200.9px;
+    }
+
+    .img-roll {
+        gap: 0px;
     }
 
     .our-work-arrow-icon {
@@ -2085,6 +2117,13 @@ footer .second-line a:hover::after {
         width: 347px;
     }
 
+    .about-us-copy h1 {
+        /* margin-left: 13px; */
+        margin-left: 11px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
     .about-us-copy {
         padding: 45px 17px;
         gap: 38px;
@@ -2124,7 +2163,7 @@ footer .second-line a:hover::after {
         height: 182.81px;
         top: 316px;
         left: 39.05px;
-        border-left: 2px solid #fff;
+        /* border-left: 2px solid #fff; */
     }
 
     .about-us-gallery #about-us-img-3 {
