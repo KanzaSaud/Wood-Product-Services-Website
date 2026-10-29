@@ -1510,28 +1510,49 @@ footer .second-line a:hover::after {
         padding: 0 36px 0 19px;
         margin-top: 42px;
         min-height: 0;
-        height: 674px;
+        /* height: 674px; */
+        /* height: 635px; */
+        height: 600px;
         /* gap: 24px; */
         width: 707px;
         /* padding-left: 19px; */
     }
 
     .about-us-copy {
-        padding: 45px 17px;
+        /* padding: 45px 17px;
         gap: 38px;
         width: 420px;
         height: 674px;
-        justify-content: center;
+        justify-content: center; */
+        padding: 35px 17px;
+        gap: 0px;
+        width: 420px;
+        height: 80%;
+        /* justify-content: space-evenly; */
+        justify-content: flex-start;
     }
 
     .about-us-copy h1 {
+        /* margin-left: 13px; */
         margin-left: 13px;
+        margin-bottom: 55px;
+        margin-top: 24px;
     }
 
     .about-us-content .about-us-text {
+        /* font-size: 20px;
+        width: 283px;
+        padding-left: 13px; */
+        /* padding-right: 50px; */
+        /* font-size: 20px;
+        width: 283px;
+        padding-left: 13px; */
+        padding-right: 17px;
         font-size: 20px;
         width: 283px;
         padding-left: 13px;
+        /* position: absolute; */
+        margin-top: 0px;
     }
 
     .line-break-abt {
@@ -1554,7 +1575,7 @@ footer .second-line a:hover::after {
         top: 321.42px; */
         width: 225px;
         height: 225px;
-        left: 345px;
+        left: 355px;
         top: 165px;
     }
 
@@ -1564,7 +1585,7 @@ footer .second-line a:hover::after {
         max-width: 225px;
         height: 225px;
         top: 155px;
-        left: 355px;
+        left: 365px;
         /* border-left: 2px solid #fff; */
         border-radius: 14px;
         /* z-index: 20; */
@@ -1575,7 +1596,8 @@ footer .second-line a:hover::after {
         height: 135px;
         left: 490px;
         /* top: 534px; */
-        top: 445px;
+        /* top: 445px; */
+        top: 420px;
     }
 
     .questions-container {
