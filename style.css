@@ -1520,6 +1520,10 @@ footer .second-line a:hover::after {
         font-size: 20px;
     }
 
+    #about-us-page-margin{
+        min-height: 85vh;
+        margin-top: 0px;
+    }
 
     .about-us-content {
         /* padding: 0 11px; */
