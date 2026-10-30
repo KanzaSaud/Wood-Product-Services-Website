@@ -24,6 +24,7 @@ body {
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
+    /* overflow-x: hidden; */
 }
 
 .navbar {
@@ -979,6 +980,30 @@ footer .second-line a:hover::after {
     transform: scaleX(1);
 }
 
+/* Keep the desktop composition fluid while the viewport is being resized. */
+/* @media (min-width: 769px) and (max-width: 1024px) {
+    .about-us-content {
+        width: calc(100% - 2rem);
+        max-width: 82.5rem;
+        overflow: hidden;
+    }
+
+    .about-us-copy {
+        padding-left: clamp(2rem, 12vw, 8rem);
+        max-width: 58%;
+    }
+
+    .about-us-content .about-us-text {
+        width: min(516px, 100%);
+        font-size: clamp(1.25rem, 2.4vw, 1.875rem);
+    }
+
+    .about-us-gallery #about-us-img-1 { right: 5%; }
+    .about-us-gallery #about-us-img-2,
+    .about-us-gallery #about-us-img-2-back { left: 63%; }
+    .about-us-gallery #about-us-img-3 { right: 8%; }
+} */
+
 /*
 @media(max-width: 880px) {
      .navbar-container .navbar-menu {
@@ -1535,7 +1560,8 @@ footer .second-line a:hover::after {
         /* height: 600px; */
         height: 550px;
         /* gap: 24px; */
-        width: 707px;
+        /* width: 707px; */
+        width: 92%;
         /* padding-left: 19px; */
     }
 
@@ -1587,7 +1613,9 @@ footer .second-line a:hover::after {
         /* top: 298px; */
         top: 60px;
         /* left: 200px; */
-        left: 520px;
+        /* left: 520px; */
+        /* left: calc(100% - 248px); */
+        left: calc(100% - 186px);
     }
 
     .about-us-gallery #about-us-img-2 {
@@ -1600,7 +1628,8 @@ footer .second-line a:hover::after {
         left: 355px; */
         width: 200px;
         height: 200px;
-        left: 390px;
+        /* left: 390px; */
+        left: calc(100% - 316px);
         top: 165px;
     }
 
@@ -1614,7 +1643,8 @@ footer .second-line a:hover::after {
         max-width: 200px;
         height: 200px;
         top: 155px;
-        left: 400px;
+        /* left: 400px; */
+        left: calc(100% - 306px);
         /* border-left: 2px solid #fff; */
         border-radius: 14px;
         /* z-index: 20; */
@@ -1623,7 +1653,8 @@ footer .second-line a:hover::after {
     .about-us-gallery #about-us-img-3 {
         width: 135px;
         height: 135px;
-        left: 495px;
+        /* left: 495px; */
+        left: calc(100% - 211.55px);
         /* top: 534px; */
         /* top: 445px; */
         top: 387px;
