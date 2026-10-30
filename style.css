@@ -2781,8 +2781,62 @@ footer .second-line a:hover::after {
     }
 }
 
-/* --- slight transitional changes for about us --- */
+/* - slight transitional changes for hero & about us - */
 @media (min-width: 426px) and (max-width: 600px) {
+    .hero {
+        height: 600px;
+        min-height: 0;
+    }
+
+    .hero-image {
+        width: clamp(286px, 68vw, 400px);
+        height: auto;
+        aspect-ratio: 286 / 486;
+        object-fit: cover;
+    }
+
+    .hero-content {
+        top: 7.8rem;
+        width: min(326px, calc(100vw - 24px));
+        /* height: 280px; */
+        height: clamp(280px, 65vw, 400px);
+        padding: 16px;
+        gap: 2rem;
+        overflow: visible;
+    }
+
+    .hero-gallery {
+        position: relative;
+        width: 50%;
+        height: 100%;
+    }
+
+    .hero-gallery img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .hero-gallery .img-1 {
+        /* top: clamp(32px, 8.94vw, 54px); */
+        top: clamp(38px, calc(10vw - 4.5px), 82px);
+        /* left: 45.18vw; */
+        /* left: clamp(192px, 45.18vw, 220px); */
+    }
+
+    .hero-gallery .img-2 {
+        /* top: clamp(-130px, -30.59vw, -100px); */
+        top: clamp(-130px, calc(46vw - 325.5px), -50px);
+        /* left: 49.4vw; */
+        /* left: clamp(210px, 49.4vw, 235px); */
+    }
+
+    .hero-gallery .img-3 {
+        /* top: clamp(-20px, -4.7vw, -12px); */
+        top: clamp(-20px, calc(34vw - 164.5px), 50px);
+        /* left: 5.88vw; */
+        /* left: clamp(25px, 5.88vw, 35px); */
+    }
+
     .about-us-content {
         width: clamp(347px, calc(100vw - 78px), 500px);
         height: 674px;
