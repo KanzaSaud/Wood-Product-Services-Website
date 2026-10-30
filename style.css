@@ -2222,7 +2222,8 @@ footer .second-line a:hover::after {
     }
 
     .navbar-container {
-        padding: 0 45px 0 54px;
+        /* padding: 0 45px 0 54px; */
+        padding: 0 clamp(16px, 7.5vw, 45px) 0 clamp(16px, 9vw, 54px);
     }
 
 
@@ -2571,7 +2572,9 @@ footer .second-line a:hover::after {
     }
 
     .questions-container {
-        height: 500px;
+        /* height: 500px; */
+        height: auto;
+        min-height: 500px;
         padding: 0 20px;
         gap: 12px;
     }
@@ -2614,11 +2617,15 @@ footer .second-line a:hover::after {
         /* width: 324px; */
         width: 100%;
         max-width: 100%;
-        height: 40px;
+        /* height: 40px; */
+        height: auto;
+        min-height: 0;
     }
 
     .questions-container input,
     textarea {
+        height: 45px;
+        min-height: 45px;
         font-size: 13px;
         line-height: 139.4%;
         border-radius: 42px;
@@ -2643,6 +2650,7 @@ footer .second-line a:hover::after {
         font-size: 15px;
         min-height: 34px;
         line-height: auto;
+        margin-bottom: 20px;
     }
 
     .container-404 {
