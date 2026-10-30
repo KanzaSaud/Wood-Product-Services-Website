@@ -1277,7 +1277,7 @@ footer .second-line a:hover::after {
 
     .navbar-container .navbar-menu li a {
         font-size: 16px;
-    } 
+    }
 }
 
 /*
@@ -1534,7 +1534,8 @@ footer .second-line a:hover::after {
 }
 
 /* below is optimized for abt us section only till 730px */
-@media (max-width: 768px) {
+/* @media (max-width: 500px) { */
+@media (min-width: 600px) and (max-width: 768px) {
     #page-404 {
         min-height: 100vh;
         background-position: center;
@@ -1601,34 +1602,39 @@ footer .second-line a:hover::after {
         width: 120px;
         height: 120px;
         top: 5px;
-        /* left: 120px; */
-        /* 177.825px */
-        left: calc(100% - 57.825px);
+        right: 0;
+        left: auto;
     }
 
     .hero-gallery .img-2 {
         width: 120px;
         height: 120px;
-        /* left: 140px; */
-        left: calc(100% - 37.825px);
-        /* top: 220px; */
-        /* top: 235px; */
-        top: 260px;
+        left: 0;
+        top: 50%;
     }
 
     .hero-gallery .img-3 {
         width: 120px;
         height: 120px;
-        top: 160px;
-        /* left: -9px; */
-        left: calc(100% - 186.825px);
+        bottom: 0;
+        right: 0;
+        left: auto;
     }
 
     .hero-content {
         height: 500px;
-        gap: 2rem;
-        /* 32px */
-        gap: calc(100% - 145.825px);
+        gap: clamp(1rem, 4vw, 2rem);
+        padding: 2rem 4vw;
+    }
+
+    .hero-copy {
+        flex: 0 1 45%;
+        min-width: 0;
+    }
+
+    .hero-gallery {
+        flex: 1 1 0;
+        min-width: 0;
     }
 
     .hero-content .hero-text {
@@ -1773,6 +1779,7 @@ footer .second-line a:hover::after {
         /* flex-direction: column; */
         /* align-items: stretch; */
         gap: 42px;
+        padding-left: 19px;
     }
 
     /* .adv-text-container {
@@ -2171,6 +2178,23 @@ footer .second-line a:hover::after {
     }
 }
 
+/* to be deleted code */
+/* 
+@media (min-width: 427px) and (max-width: 768px) {
+    .adv-text-container {
+        width: min(707px, calc(100vw - 38px));
+        max-width: 100%;
+        padding-right: 0;
+        min-width: 0;
+    }
+
+    .adv-text-container p {
+        width: 100%;
+        max-width: 100%;
+        overflow-wrap: break-word;
+    }
+}
+
 @media (max-width: 480px) {
     .navbar-container {
         padding: 0 1rem;
@@ -2184,9 +2208,11 @@ footer .second-line a:hover::after {
         font-size: 1.2rem;
         padding: 3px 15px;
     }
-}
+} */
 
-@media (max-width: 426px) {
+
+/* ------- 600px and below (mobile screens) ----- */
+@media (max-width: 600px) {
     .navbar-container .navbar-menu li a {
         font-size: 16px;
     }
@@ -2194,6 +2220,11 @@ footer .second-line a:hover::after {
     .navbar {
         padding: 0 8px 0 8px;
     }
+
+    .navbar-container {
+        padding: 0 45px 0 54px;
+    }
+
 
     #non-transparent-navbar {
         height: 82px;
@@ -2223,8 +2254,10 @@ footer .second-line a:hover::after {
     }
 
     .hero {
-        min-height: 0;
-        height: 600px;
+        /* min-height: 0;
+        height: 600px; */
+        height: auto;
+        min-height: 600px;
     }
 
     .hero-gallery {
@@ -2306,15 +2339,20 @@ footer .second-line a:hover::after {
     .wood-types-container {
         margin-top: 42px;
         height: 600px;
-        padding-left: 19px;
+        /* padding-left: 19px; */
     }
 
     .wood-types-container h1 {
-        margin-left: 0px;
+        margin-left: 38px;
     }
 
     .wood {
+        min-width: 102.43px;
         gap: 20px;
+    }
+
+    .wood-types {
+        padding-left: 12px;
     }
 
     .wood-catalog {
@@ -2339,6 +2377,7 @@ footer .second-line a:hover::after {
 
     .wood-types .text-box {
         gap: 9px;
+        max-width: 99.65px;
         /* margin-top: 10px; */
     }
 
@@ -2362,8 +2401,11 @@ footer .second-line a:hover::after {
     }
 
     .our-work-container .main-picture {
-        width: 301.08px;
-        height: 200.9px;
+        /* width: 301.08px;
+        height: 200.9px; */
+        width: min(301.08px, calc(100vw - 80px));
+        height: auto;
+        aspect-ratio: 301.08 / 200.9;
     }
 
     .img-roll {
@@ -2371,9 +2413,12 @@ footer .second-line a:hover::after {
     }
 
     .our-work-arrow-icon {
-        margin: auto 0;
+        /* margin: auto 0;
         height: 26.64px;
-        width: 26.64px;
+        width: 26.64px; */
+        width: clamp(22px, 7vw, 26.64px);
+        height: auto;
+        margin: auto clamp(4px, 2vw, 12px);
     }
 
     .scroll-position-container {
@@ -2396,7 +2441,7 @@ footer .second-line a:hover::after {
     }
 
     .adv-working-with-us-container {
-        padding: 0 11px;
+        padding: 0 19px;
         margin-top: 42px;
         min-height: 0;
         height: 600px;
@@ -2404,7 +2449,7 @@ footer .second-line a:hover::after {
     }
 
     .adv-working-with-us-container h1 {
-        margin-left: 0;
+        margin-left: 19px;
     }
 
     .adv-img-and-text {
@@ -2419,6 +2464,7 @@ footer .second-line a:hover::after {
         order: 1;
         height: auto;
         gap: 11px;
+        padding-left: 24px;
     }
 
     .adv-img-container {
@@ -2430,9 +2476,13 @@ footer .second-line a:hover::after {
     }
 
     .adv-img {
-        border-radius: 14px;
+        /* border-radius: 14px;
         width: 350px;
-        height: 221px;
+        height: 221px; */
+        width: min(350px, calc(100vw - 38px));
+        height: auto;
+        aspect-ratio: 350 / 221;
+        border-radius: 14px;
     }
 
     .adv-text-container p {
@@ -2561,7 +2611,9 @@ footer .second-line a:hover::after {
 
     form {
         gap: 12px;
-        width: 324px;
+        /* width: 324px; */
+        width: 100%;
+        max-width: 100%;
         height: 40px;
     }
 
@@ -2572,6 +2624,10 @@ footer .second-line a:hover::after {
         border-radius: 42px;
         border: 2px solid #728BAD;
         padding: 12px 27px;
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
     }
 
     .questions-container textarea {
