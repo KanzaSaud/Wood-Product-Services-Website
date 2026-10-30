@@ -9,6 +9,12 @@
     font-display: swap;
 }
 
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -24,7 +30,7 @@ body {
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -984,6 +990,63 @@ footer .second-line a:hover::after {
 
 /* Keep the desktop composition fluid while the viewport is being resized. */
 @media (min-width: 769px) and (max-width: 1024px) {
+    .hero-image {
+        width: min(57.5rem, 65vw);
+        max-width: 100%;
+        height: auto;
+    }
+
+    .hero-content {
+        width: 87%;
+        padding: 3.5rem 3vw;
+        gap: clamp(1.25rem, 3vw, 2.25rem);
+    }
+
+    .hero-copy {
+        min-width: 0;
+        flex: 0 1 52%;
+    }
+
+    .hero-copy h1 {
+        font-size: clamp(3rem, 6vw, 4.375rem);
+    }
+
+    .hero-gallery {
+        flex: 1 1 0;
+        min-width: 0;
+    }
+
+    .hero-gallery img {
+        width: clamp(105px, 17vw, 180px);
+        height: auto;
+        aspect-ratio: 1;
+    }
+
+    .hero-content .hero-vertical-line {
+        flex: 0 0 1px;
+        margin-top: 0;
+    }
+
+    .hero-gallery .img-1 {
+        top: 0;
+        right: 4%;
+    }
+
+    .hero-gallery .img-2 {
+        /* left: 0;
+        top: 45%; */
+        left: -3.125%;
+        /* top: 220px; */
+        top: 37%;
+    }
+
+    .hero-gallery .img-3 {
+        /* right: 8%;
+        bottom: 0; */
+        bottom: 0px;
+        left: 30%;
+    }
+
     .about-us-content {
         width: calc(100% - 4vw);
         max-width: 82.5rem;
@@ -1105,7 +1168,7 @@ footer .second-line a:hover::after {
         height: auto;
     }
 
-    .line-break-adv{
+    .line-break-adv {
         display: none;
     }
 
