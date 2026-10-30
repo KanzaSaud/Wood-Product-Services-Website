@@ -643,7 +643,7 @@ button:active,
     position: relative;
     gap: 50px;
     /* justify-content: center; */
-    overflow: hidden;
+    overflow: visible;
 }
 
 .questions-container h1 {
@@ -676,12 +676,13 @@ button:active,
 }
 
 .questions-container img {
-    width: 700px;
-    height: 707.57px;
+    width: min(700px, 48.61vw);
+    height: auto;
     /* border: 2px solid #fff; */
     position: absolute;
-    right: 75px;
-    bottom: -15rem;
+    right: clamp(2rem, 5.21vw, 75px);
+    bottom: -10.42vw;
+    z-index: 1;
 }
 
 .questions-text {
@@ -913,6 +914,7 @@ footer {
     box-shadow: 0 4px 52px 0 #f5f5f52b;
     position: relative;
     background-color: #222021;
+    z-index: 2;
 }
 
 footer .first-line {
@@ -981,28 +983,98 @@ footer .second-line a:hover::after {
 }
 
 /* Keep the desktop composition fluid while the viewport is being resized. */
-/* @media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     .about-us-content {
-        width: calc(100% - 2rem);
+        width: 100%;
         max-width: 82.5rem;
         overflow: hidden;
+        padding: 3rem 2rem;
     }
 
     .about-us-copy {
-        padding-left: clamp(2rem, 12vw, 8rem);
-        max-width: 58%;
+        width: 55%;
+        min-width: 0;
+        padding-left: clamp(2rem, 8vw, 6rem);
+        padding-right: 0;
+        gap: 3rem;
     }
 
     .about-us-content .about-us-text {
-        width: min(516px, 100%);
-        font-size: clamp(1.25rem, 2.4vw, 1.875rem);
+        width: 100%;
+        font-size: clamp(1.25rem, 2.2vw, 1.875rem);
     }
 
-    .about-us-gallery #about-us-img-1 { right: 5%; }
+    .about-us-content .line-break-abt {
+        display: none;
+    }
+
+    .about-us-gallery #about-us-img-1 {
+        width: clamp(140px, 20vw, 205px);
+        height: clamp(140px, 20vw, 205px);
+        right: 4%;
+        top: 3rem;
+    }
+
     .about-us-gallery #about-us-img-2,
-    .about-us-gallery #about-us-img-2-back { left: 63%; }
-    .about-us-gallery #about-us-img-3 { right: 8%; }
-} */
+    .about-us-gallery #about-us-img-2-back {
+        width: clamp(230px, 32vw, 337px);
+        height: clamp(230px, 32vw, 337px);
+        left: 61%;
+        top: 11rem;
+    }
+
+    .about-us-gallery #about-us-img-3 {
+        width: clamp(140px, 20vw, 205px);
+        height: clamp(140px, 20vw, 205px);
+        right: 7%;
+        bottom: 3rem;
+    }
+
+    .questions-container {
+        height: auto;
+        min-height: 100vh;
+        padding: 3rem 4vw 0;
+        padding-bottom: 5rem;
+        gap: 4rem;
+    }
+
+    .questions-container h1 {
+        margin-right: 0;
+    }
+
+    .questions-container .questions-content {
+        gap: clamp(1.5rem, 4vw, 3rem);
+    }
+
+    .questions-container .fields {
+        width: 55%;
+        min-width: 0;
+    }
+
+    .questions-container .questions-text {
+        width: 45%;
+        padding-right: 0;
+        min-width: 0;
+    }
+
+    .questions-container input,
+    .questions-container textarea {
+        width: 100%;
+    }
+
+    .questions-container img {
+        width: 48.61vw;
+        height: auto;
+        right: -3.79vw;
+        bottom: -16.42vw;
+    }
+
+    .questions-br {
+        display: none;
+    }
+
+
+}
 
 /*
 @media(max-width: 880px) {
@@ -1055,10 +1127,10 @@ footer .second-line a:hover::after {
 
 /* Responsive Style */
 
-@media (min-width: 426px){
-  #contact-questions-for-mobile {
-    display: none;
-  }
+@media (min-width: 426px) {
+    #contact-questions-for-mobile {
+        display: none;
+    }
 }
 
 @media (max-width: 1470px) {
@@ -1256,6 +1328,7 @@ footer .second-line a:hover::after {
         z-index: 999;
     }
 }
+
 /* below is optimized for abt us section only till 730px */
 @media (max-width: 768px) {
     #page-404 {
@@ -1551,7 +1624,7 @@ footer .second-line a:hover::after {
         font-size: 20px;
     }
 
-    #about-us-page-margin{
+    #about-us-page-margin {
         min-height: 85vh;
         margin-top: 0px;
     }
