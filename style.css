@@ -997,6 +997,8 @@ footer .second-line a:hover::after {
     }
 
     .hero-content {
+        top: 8.5rem;
+        height: 80vh;
         width: 87%;
         padding: 3.5rem 3vw;
         gap: clamp(1.25rem, 3vw, 2.25rem);
@@ -1004,11 +1006,11 @@ footer .second-line a:hover::after {
 
     .hero-copy {
         min-width: 0;
-        flex: 0 1 52%;
+        flex: 0 1 50%;
     }
 
     .hero-copy h1 {
-        font-size: clamp(3rem, 6vw, 4.375rem);
+        font-size: clamp(2.6rem, 5.5vw, 4.375rem);
     }
 
     .hero-gallery {
@@ -1017,9 +1019,10 @@ footer .second-line a:hover::after {
     }
 
     .hero-gallery img {
-        width: clamp(105px, 17vw, 180px);
+        width: clamp(120px, 14.16vw, 145px);
         height: auto;
         aspect-ratio: 1;
+        flex-shrink: 0;
     }
 
     .hero-content .hero-vertical-line {
@@ -1027,24 +1030,33 @@ footer .second-line a:hover::after {
         margin-top: 0;
     }
 
+    .hero-content .order-btn {
+        margin-top: clamp(3rem, 6vw, 4.5rem);
+        padding: clamp(.5rem, 1vw, .688rem) clamp(2rem, 4.4vw, 4.375rem);
+        font-size: clamp(1.5rem, 2.8vw, 2.25rem);
+    }
+
+    .hero-content .order-btn a {
+        font-size: inherit;
+    }
+
     .hero-gallery .img-1 {
-        top: 0;
+        top: 30px;
         right: 4%;
     }
 
     .hero-gallery .img-2 {
         /* left: 0;
         top: 45%; */
-        left: -3.125%;
+        left: 0px;
         /* top: 220px; */
-        top: 37%;
+        top: 46%;
     }
 
     .hero-gallery .img-3 {
-        /* right: 8%;
-        bottom: 0; */
-        bottom: 0px;
-        left: 30%;
+        right: 0;
+        bottom: 0;
+        left: auto;
     }
 
     .about-us-content {
@@ -1251,6 +1263,21 @@ footer .second-line a:hover::after {
     }
 
 
+    .hero-content .hero-text {
+        font-size: 25px;
+    }
+
+    .hero-content .order-btn a {
+        font-size: 30px;
+    }
+
+    #BIOCWT-logo {
+        height: 64px;
+    }
+
+    .navbar-container .navbar-menu li a {
+        font-size: 16px;
+    } 
 }
 
 /*
@@ -1310,8 +1337,8 @@ footer .second-line a:hover::after {
     }
 }
 
-@media (max-width: 1470px) {
-    /* .hero-gallery .img-1 {
+/* @media (max-width: 1470px) { */
+/* .hero-gallery .img-1 {
         top: 0;
         right: 2rem;
         z-index: 3;
@@ -1329,7 +1356,7 @@ footer .second-line a:hover::after {
         z-index: 1;
     } */
 
-    .hero-gallery .img-1 {
+/* .hero-gallery .img-1 {
         top: -27.008px;
         left: 250px;
     }
@@ -1337,15 +1364,15 @@ footer .second-line a:hover::after {
     .hero-gallery .img-2 {
         left: 8px;
         /* top: 220px; */
-        top: 272px;
+/* top: 272px;
     }
 
     .hero-gallery .img-3 {
         bottom: 17px;
         left: 316.66px;
     }
-}
-
+} */
+/* 
 @media (max-width: 1430px) {
 
     .hero-gallery .img-1 {
@@ -1356,16 +1383,16 @@ footer .second-line a:hover::after {
     .hero-gallery .img-2 {
         left: 8px;
         /* top: 220px; */
-        top: 272px;
+/* top: 272px;
     }
 
     .hero-gallery .img-3 {
         bottom: 17px;
         left: 294px;
     }
-}
+} */
 
-@media (max-width: 1380px) {
+/* @media (max-width: 1380px) {
 
     .hero-gallery .img-1 {
         top: -27.008px;
@@ -1375,16 +1402,15 @@ footer .second-line a:hover::after {
     .hero-gallery .img-2 {
         left: 8px;
         /* top: 220px; */
-        top: 272px;
-    }
+/* top: 272px;
+    } */
 
-    .hero-gallery .img-3 {
+/* .hero-gallery .img-3 {
         bottom: 17px;
         left: 274px;
     }
-}
-
-@media (max-width: 1350px) {
+} */
+/* @media (max-width: 1350px) {
 
     .hero-gallery .img-1 {
         top: -27.008px;
@@ -1394,15 +1420,15 @@ footer .second-line a:hover::after {
     .hero-gallery .img-2 {
         left: 8px;
         /* top: 220px; */
-        top: 272px;
+/*       top: 272px;
     }
 
     .hero-gallery .img-3 {
         bottom: 17px;
         left: 254px;
     }
-}
-
+} */
+/*
 @media (max-width: 1310px) {
 
     .hero-gallery .img-1 {
@@ -1413,7 +1439,7 @@ footer .second-line a:hover::after {
     .hero-gallery .img-2 {
         left: 8px;
         /* top: 220px; */
-        top: 272px;
+/* top: 272px;
     }
 
     .hero-gallery .img-3 {
@@ -1421,7 +1447,8 @@ footer .second-line a:hover::after {
         left: 234px;
     }
 }
-
+  */
+/*   
 @media (max-width: 1300px) {
     .full-container h1 {
         font-size: 70px;
@@ -1431,7 +1458,7 @@ footer .second-line a:hover::after {
         height: auto;
         min-height: 100vh;
         /* overflow: hidden; */
-    }
+/*   }
 
     .hero-image {
         width: 760px;
@@ -1445,7 +1472,7 @@ footer .second-line a:hover::after {
     .hero-gallery .img-2 {
         left: 8px;
         /* top: 220px; */
-        top: 272px;
+/*      top: 272px;
     }
 
     .hero-gallery .img-3 {
@@ -1472,8 +1499,8 @@ footer .second-line a:hover::after {
 
     .navbar-container .navbar-menu li a {
         font-size: 16px;
-    }
-}
+    } 
+} */
 
 @media (max-width: 1024px) {
     .navbar-container .navbar-menu {
