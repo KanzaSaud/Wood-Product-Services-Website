@@ -1256,7 +1256,7 @@ footer .second-line a:hover::after {
         z-index: 999;
     }
 }
-
+/* below is optimized for abt us section only till 730px */
 @media (max-width: 768px) {
     #page-404 {
         min-height: 100vh;
@@ -1324,13 +1324,16 @@ footer .second-line a:hover::after {
         width: 120px;
         height: 120px;
         top: 5px;
-        left: 120px;
+        /* left: 120px; */
+        /* 177.825px */
+        left: calc(100% - 57.825px);
     }
 
     .hero-gallery .img-2 {
         width: 120px;
         height: 120px;
-        left: 140px;
+        /* left: 140px; */
+        left: calc(100% - 37.825px);
         /* top: 220px; */
         /* top: 235px; */
         top: 260px;
@@ -1340,12 +1343,15 @@ footer .second-line a:hover::after {
         width: 120px;
         height: 120px;
         top: 160px;
-        left: -9px;
+        /* left: -9px; */
+        left: calc(100% - 186.825px);
     }
 
     .hero-content {
         height: 500px;
         gap: 2rem;
+        /* 32px */
+        gap: calc(100% - 145.825px);
     }
 
     .hero-content .hero-text {
