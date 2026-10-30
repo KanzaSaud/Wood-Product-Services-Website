@@ -1069,6 +1069,31 @@ footer .second-line a:hover::after {
         bottom: -16.42vw;
     }
 
+    .adv-working-with-us-container {
+        width: 100%;
+        padding: 0 4vw;
+        box-sizing: border-box;
+    }
+
+    .adv-working-with-us-container h1 {
+        margin-left: clamp(2rem, 9.28vw, 95px);
+    }
+
+    .adv-img-and-text {
+        justify-content: flex-start;
+        gap: clamp(2rem, 6vw, 5rem);
+    }
+
+    .adv-img-container {
+        justify-content: flex-start;
+        flex: 0 1 auto;
+    }
+
+    .adv-img {
+        width: clamp(350px, 45vw, 609px);
+        height: auto;
+    }
+
     .questions-br {
         display: none;
     }
