@@ -985,7 +985,7 @@ footer .second-line a:hover::after {
 /* Keep the desktop composition fluid while the viewport is being resized. */
 @media (min-width: 769px) and (max-width: 1024px) {
     .about-us-content {
-        width: 100%;
+        width: calc(100% - 4vw);
         max-width: 82.5rem;
         overflow: hidden;
         padding: 3rem 2rem;
