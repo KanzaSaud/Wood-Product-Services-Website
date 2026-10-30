@@ -1089,9 +1089,45 @@ footer .second-line a:hover::after {
         flex: 0 1 auto;
     }
 
+    .adv-text-container {
+        flex: 1 1 0;
+        min-width: 0;
+        max-width: 100%;
+    }
+
+    .adv-text-container p {
+        max-width: 100%;
+        overflow-wrap: break-word;
+    }
+
     .adv-img {
         width: clamp(350px, 45vw, 609px);
         height: auto;
+    }
+
+    .line-break-adv{
+        display: none;
+    }
+
+    .our-work-container {
+        width: 100%;
+        padding: 0 4vw;
+        box-sizing: border-box;
+    }
+
+    .our-work-container h1 {
+        margin-left: clamp(2rem, 9.28vw, 95px);
+    }
+
+    .our-work-container .main-picture {
+        width: min(60.875rem, 65vw);
+        height: auto;
+    }
+
+    .our-work-arrow-icon {
+        width: clamp(2.25rem, 5vw, 4rem);
+        height: auto;
+        margin: auto clamp(.5rem, 2vw, 3rem);
     }
 
     .questions-br {
