@@ -2729,8 +2729,13 @@ footer .second-line a:hover::after {
     }
 
     .contact-right img {
-        width: 347px;
-        height: 230px;
+        /* width: 347px;
+        height: 230px; */
+        width: min(347px, calc(100vw - 48px));
+        height: auto;
+        max-height: 230px;
+        aspect-ratio: 347 / 230;
+        object-fit: cover;
     }
 
     footer {
