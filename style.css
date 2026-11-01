@@ -2721,7 +2721,10 @@ footer .second-line a:hover::after {
         width: 255px;
         height: 255px;
         bottom: -85px;
-        left: 465px;
+        left: clamp(350px, calc(100vw - 14rem), 465px);
+        /* left: clamp(350px, calc(100vw - 301px),465px); */
+        /* right: clamp(75px, calc(180px - 15vw), 90px); */
+        /* left: calc(100% - image-width - right-gap); */
     }
 
     .questions-text {
