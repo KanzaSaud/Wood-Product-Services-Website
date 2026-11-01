@@ -2646,7 +2646,8 @@ footer .second-line a:hover::after {
         width: 200px;
         height: 200px;
         /* left: 390px; */
-        left: calc(100% - 316px);
+        /* left: calc(100% - 316px); */
+        left: max(32px, calc(100% - 240px));
         top: 165px;
     }
 
@@ -2661,7 +2662,8 @@ footer .second-line a:hover::after {
         height: 200px;
         top: 155px;
         /* left: 400px; */
-        left: calc(100% - 306px);
+        /* left: calc(100% - 306px); */
+        left: max(39px, calc(100% - 233px));
         /* border-left: 2px solid #fff; */
         border-radius: 14px;
         /* z-index: 20; */
