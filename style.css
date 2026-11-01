@@ -2210,6 +2210,696 @@ footer .second-line a:hover::after {
     }
 } */
 
+/* ------- 600px till 685px (small tablets) ----- */
+@media (min-width: 600px) and (max-width: 700px) {
+    #page-404 {
+        min-height: 100vh;
+        background-position: center;
+    }
+
+    .navbar-container {
+        padding: 0 45px 0 54px;
+    }
+
+    .navbar-container .navbar-menu li a {
+        font-size: 16px;
+    }
+
+    .navbar {
+        padding: 0 8px 0 8px;
+    }
+
+    #non-transparent-navbar {
+        height: 82px;
+        padding: 45px 24px;
+        border-radius: 0 0 30px 30px;
+    }
+
+    img {
+        border-radius: 14px;
+    }
+
+    #BIOCWT-logo {
+        /* height: 36px; */
+        height: 45px;
+        border-radius: 0;
+
+    }
+
+    .hero-image {
+        width: 440px;
+        height: 680px;
+        object-fit: cover;
+        border-radius: 41px 35px 0px 0px;
+    }
+
+    .full-container h1 {
+        font-size: 45px;
+    }
+
+    .hero {
+        min-height: 0;
+        height: 600px;
+    }
+
+    .hero-copy {
+        height: 400px;
+        justify-content: center;
+    }
+
+    .hero-gallery {
+        position: relative;
+        width: 50%;
+        height: 100%;
+        /* border: 2px solid #fff; */
+    }
+
+    .hero-gallery .img-1 {
+        width: 100px;
+        height: 100px;
+        top: 10px;
+    }
+
+    .hero-gallery .img-2 {
+        width: 100px;
+        height: 100px;
+        left: -15%;
+        top: 45%;
+    }
+
+    .hero-gallery .img-3 {
+        width: 100px;
+        height: 100px;
+        bottom: 15px;
+    }
+
+    .hero-content {
+        height: 500px;
+        /* gap: clamp(1rem, 4vw, 2rem); */
+        gap: clamp(3rem, 4vw, 2rem);
+        padding: 2rem 4vw;
+    }
+
+    .hero-copy {
+        flex: 0 1 45%;
+        min-width: 0;
+    }
+
+    .hero-gallery {
+        flex: 1 1 0;
+        min-width: 0;
+    }
+
+    .hero-content .hero-text {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .solid-wood-break {
+        display: none;
+    }
+
+    .hero-content .order-btn {
+        margin-top: 64px;
+        padding: 10px auto;
+    }
+
+    .hero-content .order-btn a {
+        display: block;
+        font-size: 20px;
+        line-height: auto;
+    }
+
+    .hero-content .hero-vertical-line {
+        height: 98%;
+        margin-top: 15px;
+        margin-left: 5%;
+    }
+
+    .wood-types-container img {
+        height: 120px;
+        width: 120px;
+
+        /* border-radius: 42px; */
+    }
+
+    .wood-types-container {
+        margin-top: 80px;
+        /* height: 600px; */
+        height: 97vh;
+        padding-left: 19px;
+    }
+
+    .wood-types-container h1 {
+        margin-left: 30px;
+    }
+
+    .wood {
+        gap: 26px;
+    }
+
+    .wood-catalog {
+        gap: 24px;
+        width: 120px;
+    }
+
+    .wood-catalog #Ash-UX {
+        margin-left: 0;
+    }
+
+    .wood-types .wood-title {
+        font-size: 25px;
+    }
+
+    .wood-types .icon {
+        height: 17px;
+        width: 17px;
+    }
+
+    .wood-types .text-box {
+        gap: 13.5px;
+    }
+
+    .wood-types .text-line {
+        font-size: 20px;
+    }
+
+    /* .our-work-container {
+        min-height: 0;
+        height: 400px;
+        padding-left: 19px;
+        gap: 24px;
+        margin-top: 28px;
+        height: 722px;
+    }
+
+    .our-work-container h1 {
+        margin-left: 30px;
+    }
+
+    .our-work-container .main-picture {
+        width: 542px;
+        height: 361px;
+    }
+
+    .img-roll {
+        gap: 10px;
+    }
+
+    .our-work-arrow-icon {
+        margin: auto 0;
+        height: 48px;
+        width: 48px;
+    }
+
+    .scroll-position-container {
+        width: 58.86px;
+        height: 13.42px;
+        align-self: center;
+    }
+
+    .scroll-position-container img {
+        align-self: center;
+        width: 36px;
+        height: 36px;
+        top: 0;
+    }
+
+    .carousel-container {
+        gap: 0px;
+    } */
+
+    .our-work-container {
+        margin-top: 42px;
+        min-height: 0;
+        height: 400px;
+        /* padding-left: 19px; */
+        gap: 24px;
+        padding-left: 0px;
+    }
+
+    .our-work-container h1 {
+        /* margin-left: 19px; */
+        margin-left: 38px;
+        /* border: 2px solid #fff; */
+    }
+
+    .our-work-container .main-picture {
+        /* width: 301.08px;
+        height: 200.9px; */
+        width: min(301.08px, calc(100vw - 80px));
+        height: auto;
+        aspect-ratio: 301.08 / 200.9;
+    }
+
+    .img-roll {
+        gap: 0px;
+    }
+
+    .our-work-arrow-icon {
+        /* margin: auto 0;
+        height: 26.64px;
+        width: 26.64px; */
+        width: clamp(22px, 7vw, 26.64px);
+        height: auto;
+        margin: auto clamp(4px, 2vw, 12px);
+    }
+
+    .scroll-position-container {
+        width: 58.86px;
+        height: 13.42px;
+        align-self: center;
+    }
+
+    .scroll-position-container img {
+        align-self: center;
+        width: 20px;
+        height: 20px;
+        top: 0;
+    }
+
+    .carousel-container {
+        /* width: 348px;
+        height: 315.23px; */
+        gap: 0px;
+    }
+
+    .adv-working-with-us-container {
+        padding: 0 19px;
+        margin-top: 64px;
+        min-height: 0;
+        height: 600px;
+        gap: 48px;
+    }
+
+    .adv-working-with-us-container h1 {
+        margin-left: 30px;
+    }
+
+    .adv-img-and-text {
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* align-items: stretch; */
+        gap: 42px;
+        padding-left: 19px;
+    }
+
+    /* .adv-text-container {
+        padding-right: 150px;
+        padding-left: 30px;
+        order: 1;
+        height: auto;
+        gap: 20px;
+    } */
+
+    .adv-text-container {
+        padding-right: 0px;
+        /* padding-left: 30px; */
+        /* order: 1; */
+        height: auto;
+        gap: 20px;
+    }
+
+    /* .adv-img-container {
+        order: 2;
+    }
+
+    .line-break-adv {
+        display: none;
+    } */
+
+
+
+    .adv-img {
+        border-radius: 25px;
+        /* width: 632px;
+        height: 400px; */
+        width: 325px;
+        height: 206px;
+    }
+
+    .adv-text-container p {
+        font-size: 20px;
+    }
+
+    .adv-content-container .receive-button {
+        /* margin-top: 20px; */
+        padding: 10px 36px;
+    }
+
+    .adv-content-container {
+        gap: 100px;
+    }
+
+
+    button a {
+        display: block;
+        font-size: 20px;
+    }
+
+    #about-us-page-margin {
+        min-height: 85vh;
+        margin-top: 0px;
+    }
+
+    .about-us-content {
+        /* padding: 0 11px; */
+        padding: 0 36px 0 19px;
+        margin-top: 42px;
+        min-height: 0;
+        /* height: 674px; */
+        /* height: 635px; */
+        /* height: 600px; */
+        height: 550px;
+        /* gap: 24px; */
+        /* width: 707px; */
+        width: 92%;
+        /* padding-left: 19px; */
+    }
+
+    .about-us-copy {
+        /* padding: 45px 17px;
+        gap: 38px;
+        width: 420px;
+        height: 674px;
+        justify-content: center; */
+        padding: 35px 17px;
+        gap: 0px;
+        width: 420px;
+        height: 80%;
+        /* justify-content: space-evenly; */
+        justify-content: flex-start;
+    }
+
+    .about-us-copy h1 {
+        /* margin-left: 13px; */
+        margin-left: 13px;
+        margin-bottom: 55px;
+        margin-top: 24px;
+    }
+
+    .about-us-content .about-us-text {
+        /* font-size: 20px;
+        width: 283px;
+        padding-left: 13px; */
+        /* padding-right: 50px; */
+        /* font-size: 20px;
+        width: 283px;
+        padding-left: 13px; */
+        /* padding-right: 17px; */
+        padding-right: 5px;
+        font-size: 20px;
+        width: 283px;
+        padding-left: 13px;
+        /* position: absolute; */
+        margin-top: 0px;
+    }
+
+    .line-break-abt {
+        display: none;
+    }
+
+    .about-us-gallery #about-us-img-1 {
+        width: 135px;
+        height: 135px;
+        /* top: 298px; */
+        top: 60px;
+        /* left: 200px; */
+        /* left: 520px; */
+        /* left: calc(100% - 248px); */
+        left: calc(100% - 186px);
+    }
+
+    .about-us-gallery #about-us-img-2 {
+        /* width: 250px;
+        height: 250px;
+        left: 32px;
+        top: 321.42px; */
+        /* width: 225px;
+        height: 225px;
+        left: 355px; */
+        width: 200px;
+        height: 200px;
+        /* left: 390px; */
+        left: calc(100% - 316px);
+        top: 165px;
+    }
+
+    .about-us-gallery #about-us-img-2-back {
+        /* width: 182.81px;
+        height: 182.81px; */
+        /* max-width: 225px;
+        height: 225px;
+        top: 155px;
+        left: 365px; */
+        max-width: 200px;
+        height: 200px;
+        top: 155px;
+        /* left: 400px; */
+        left: calc(100% - 306px);
+        /* border-left: 2px solid #fff; */
+        border-radius: 14px;
+        /* z-index: 20; */
+    }
+
+    .about-us-gallery #about-us-img-3 {
+        width: 135px;
+        height: 135px;
+        /* left: 495px; */
+        left: calc(100% - 211.55px);
+        /* top: 534px; */
+        /* top: 445px; */
+        top: 387px;
+        /* left: 490px; */
+        /* top: 534px; */
+        /* top: 445px; */
+        /* top: 420px; */
+    }
+
+    .questions-container {
+        height: 500px;
+        padding: 0 10px 0 50px;
+        gap: 22px;
+    }
+
+    .questions-container h1 {
+        /* text-align: left; */
+        text-align: right;
+        /* margin-right: 0; */
+        margin-right: 45px;
+    }
+
+    .questions-container .questions-content {
+        /* flex-direction: column; */
+        gap: 46px;
+    }
+
+    .questions-container .fields {
+        /* order: 1; */
+        /* width: 100%; */
+        width: 324px;
+    }
+
+    .questions-container .questions-text {
+        /* border: 2px solid #fff; */
+        width: 272px;
+        padding-right: 0px;
+        text-align: right;
+    }
+
+    .questions-container img {
+        /* width: 100px;
+        height: 100px;
+        bottom: -40px; */
+        width: 255px;
+        height: 255px;
+        bottom: -85px;
+        left: 465px;
+    }
+
+    .questions-text {
+        font-size: 20px;
+    }
+
+    .questions-br {
+        display: none;
+    }
+
+    form {
+        /* gap: 12px; */
+        gap: 23px;
+        width: 324px;
+        height: 40px;
+    }
+
+    .questions-container input,
+    textarea {
+        /* font-size: 13px; */
+        font-size: 18px;
+        line-height: 139.4%;
+        border-radius: 42px;
+        border: 2px solid #728BAD;
+        padding: 12px 27px;
+    }
+
+    .questions-container textarea {
+        padding-top: 14px;
+        min-height: 134px;
+        resize: vertical;
+        border-radius: 14px;
+    }
+
+    .questions-container #send-button {
+        margin-top: 23px;
+        /* padding: 0px 20px; */
+        padding: 0px 45px;
+        /* padding: 0px 32px; */
+        /* font-size: 15px; */
+        font-size: 20px;
+        /* font-weight: 700; */
+        /* min-height: 34px; */
+        min-height: 50px;
+        line-height: auto;
+    }
+
+    .container-404 {
+        height: 470px;
+        margin-top: 2rem;
+        align-items: center;
+    }
+
+    .heading-404 {
+        gap: 110px;
+        height: 100px;
+        justify-content: center;
+        position: relative;
+        margin-bottom: 45px;
+        margin-top: 0;
+    }
+
+    #text-404 {
+        /* font-size: 100px; */
+        font-size: 125px;
+    }
+
+    .container-404 h1 {
+        /* font-size: 30px; */
+        font-size: 45px;
+        line-height: 107.9%;
+        margin-bottom: 12px;
+    }
+
+    .container-404 p {
+        /* font-size: 15px; */
+        font-size: 20px;
+        line-height: 130.4%;
+        /* margin-bottom: 32px; */
+    }
+
+    .container-404 img {
+        height: 110px;
+    }
+
+    #img-404 {
+        z-index: -1;
+    }
+
+    #graphics-404 {
+        /* height: 110px;
+        position: absolute;
+        top: -10px; */
+        height: 135px;
+        position: absolute;
+        top: -12px;
+    }
+
+    #button-404 {
+        /* margin-top: 32px; */
+        margin-top: 48px;
+    }
+
+    .contact-container {
+        height: 550px;
+        margin-top: 0;
+        min-height: 0;
+        padding: 0 24px 0 24px;
+    }
+
+    .contact-content-container {
+        /* flex-direction: column; */
+        gap: 48px;
+    }
+
+    .contact-left {
+        height: 180px;
+        padding-bottom: 0;
+    }
+
+    .contact-left h1 {
+        margin-bottom: 40px;
+    }
+
+    .contact-content {
+        gap: 10px;
+    }
+
+    .contact-right img {
+        width: 347px;
+        height: 230px;
+    }
+
+    footer {
+        width: 100%;
+        height: 352px;
+        padding: 0;
+        padding-top: 72px;
+        gap: 0px;
+    }
+
+    footer .first-line {
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+    }
+
+    footer .first-line #BIOCWT-logo {
+        height: 69px;
+        margin-bottom: 42px;
+    }
+
+    .contact-info {
+        gap: 10px;
+        margin-bottom: 16px;
+        justify-self: center;
+        /* font-size: 15px; */
+        font-size: 20px;
+
+    }
+
+    #location-info {
+        margin-bottom: 0;
+    }
+
+    footer #phone-call-info {
+        margin-right: 0;
+    }
+
+    .footer-icon {
+        /* width: 24px;
+        height: 24px; */
+        width: 30px;
+        height: 30px;
+    }
+
+    footer .second-line {
+        margin: auto;
+    }
+
+    footer .second-line a {
+        font-size: 15px;
+    }
+}
+
 
 /* ------- 600px and below (mobile screens) ----- */
 @media (max-width: 600px) {
