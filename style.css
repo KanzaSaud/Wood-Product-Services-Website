@@ -1535,7 +1535,8 @@ footer .second-line a:hover::after {
 
 /* below is optimized for abt us section only till 730px */
 /* @media (max-width: 500px) { */
-@media (min-width: 600px) and (max-width: 768px) {
+/* @media (min-width: 600px) and (max-width: 768px) { */
+@media (min-width: 768px) and (max-width: 768px) {
     #page-404 {
         min-height: 100vh;
         background-position: center;
@@ -2211,7 +2212,7 @@ footer .second-line a:hover::after {
 } */
 
 /* ------- 600px till 685px (small tablets) ----- */
-@media (min-width: 600px) and (max-width: 700px) {
+@media (min-width: 600px) and (max-width: 768px) {
     #page-404 {
         min-height: 100vh;
         background-position: center;
