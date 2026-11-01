@@ -1564,8 +1564,11 @@ footer .second-line a:hover::after {
     }
 
     .our-work-container .main-picture {
-        width: 542px;
-        height: 361px;
+        /* width: 542px;
+        height: 361px; */
+        width: min(60.875rem, 65vw);
+        height: auto;
+        aspect-ratio: 60.875 / 40.625;
     }
 
     .img-roll {
@@ -1573,21 +1576,32 @@ footer .second-line a:hover::after {
     }
 
     .our-work-arrow-icon {
-        margin: auto 0;
+        /* margin: auto 0;
         height: 48px;
-        width: 48px;
+        width: 48px; */
+        width: clamp(40px, 5vw, 64px);
+        height: auto;
+        margin-left: clamp(12px, 2vw, 30px);
+        margin-right: clamp(12px, 2vw, 30px);
     }
 
     .scroll-position-container {
-        width: 58.86px;
+        /* width: 58.86px;
         height: 13.42px;
+         */
         align-self: center;
+        width: clamp(45px, 4.1vw, 58.86px);
+        height: clamp(11px, 1vw, 13.42px);
     }
 
     .scroll-position-container img {
+        /* 
+        top: 0; 
+        height: auto;*/
+        /* width: clamp(16px, 2vw, 20px); */
         align-self: center;
-        width: 36px;
-        height: 36px;
+        width: 40px;
+        height: 40px;
         top: 0;
     }
 
@@ -1630,7 +1644,8 @@ footer .second-line a:hover::after {
         /* padding-left: 30px; */
         /* order: 1; */
         height: auto;
-        gap: 20px;
+        /* gap: 20px; */
+        gap: clamp(20px, calc(22.58vw - 183.2px), 48px);
     }
 
     /* .adv-img-container {
@@ -1647,8 +1662,11 @@ footer .second-line a:hover::after {
         border-radius: 25px;
         /* width: 632px;
         height: 400px; */
-        width: 325px;
-        height: 206px;
+        /* width: 325px;
+        height: 206px; */
+        width: clamp(500px, 60vw, 609px);
+        height: auto;
+        aspect-ratio: 609 / 386;
     }
 
     .adv-text-container p {
@@ -1782,7 +1800,7 @@ footer .second-line a:hover::after {
     }
 
     .questions-container {
-        height: 500px;
+        height: 80vh;
         padding: 0 10px 0 50px;
         gap: 22px;
     }
@@ -1802,11 +1820,14 @@ footer .second-line a:hover::after {
     .questions-container .fields {
         /* order: 1; */
         /* width: 100%; */
-        width: 324px;
+        /* width: 324px; */
+        width: 100%;
+        min-width: 0;
     }
 
     .questions-container .questions-text {
-        padding-right: 45px;
+        /* padding-right: 45px; */
+        padding-right: clamp(20px, calc(22.58vw - 183.2px), 48px);
         width: 272px;
         text-align: right;
         width: 50%;
@@ -1840,19 +1861,33 @@ footer .second-line a:hover::after {
 
     form {
         /* gap: 12px; */
-        gap: 23px;
+        /* gap: 23px;
         width: 324px;
-        height: 40px;
+        height: 40px; */
+        width: 100%;
+        min-width: 0;
+    }
+
+    .questions-container input {
+        height: clamp(55px, calc(17.74vw - 120px), 77px);
+    }
+
+    .questions-container textarea {
+        min-height: clamp(185px, 20vw, 257px);
+        height: auto;
     }
 
     .questions-container input,
     textarea {
         /* font-size: 13px; */
-        font-size: 18px;
+        /* font-size: 18px; */
+        font-size: clamp(18px, 19px, 20px);
         line-height: 139.4%;
         border-radius: 42px;
         border: 2px solid #728BAD;
-        padding: 12px 27px;
+        /* padding: 12px 27px; */
+        padding-left: clamp(24px, 3.26vw, 47px);
+        padding-right: clamp(24px, 3.26vw, 47px);
     }
 
     .questions-container textarea {
@@ -1865,13 +1900,15 @@ footer .second-line a:hover::after {
     .questions-container #send-button {
         margin-top: 23px;
         /* padding: 0px 20px; */
-        padding: 0px 45px;
+        /* padding: 0px 45px; */
         /* padding: 0px 32px; */
         /* font-size: 15px; */
         font-size: 20px;
         /* font-weight: 700; */
         /* min-height: 34px; */
-        min-height: 50px;
+        height: 44px;
+        padding: 0 clamp(32px, 4vw, 60px);
+        min-height: 0;
         line-height: auto;
     }
 
@@ -4882,32 +4919,6 @@ footer .second-line a:hover::after {
         width: 100%;
         max-width: 100%;
         overflow-wrap: break-word;
-    }
-}
-
-@media (min-width: 900px) and (max-width: 1024px) {
-    .our-work-container .main-picture {
-        width: min(60.875rem, 65vw);
-        height: auto;
-        aspect-ratio: 60.875 / 40.625;
-    }
-
-    .our-work-arrow-icon {
-        width: clamp(40px, 5vw, 64px);
-        height: auto;
-        margin-left: clamp(12px, 2vw, 30px);
-        margin-right: clamp(12px, 2vw, 30px);
-    }
-
-    .scroll-position-container {
-        width: clamp(45px, 4.1vw, 58.86px);
-        height: clamp(11px, 1vw, 13.42px);
-    }
-
-    .scroll-position-container img {
-        width: clamp(16px, 2vw, 20px);
-        height: auto;
-        top: clamp(-16px, -1.5vw, -12px);
     }
 }
 
