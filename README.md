@@ -41,12 +41,25 @@ The implementation may differ slightly from the original Figma design in the fol
 - Small gaps, spacing, and padding values may vary slightly.
 - The wooden pattern graphic may appear behind assets rather than above them, depending on the section and responsive layout.
 - Some image, typography, gaps, button, and component dimensions may differ slightly.
+- For screen sizes between 900px to 1024px, the heading size used is 60px.
 - The scrolling image carousel SVG dimensions were adjusted to maintain a minimalist, modern visual look.
 - Responsive behavior was adapted for browser widths and practical HTML/CSS implementation.
 - On mobile screens, the footer address text was slightly revised for improved clarity and presentation.
 - The footer text displayed in the other language was replaced with the **Privacy Policy** link as in laptop/desktop screen footer.
 - The mobile footer contact details were reordered so that the phone number appears before the location.
 - The wood types showcase uses a side-by-side layout rather than horizontal scrolling, keeping the available wood varieties visible together.
+
+### Responsive heading size
+
+For viewport widths from `900px` through `1024px`, set the main heading size to `60px`:
+
+```css
+@media (min-width: 900px) and (max-width: 1024px) {
+    .full-container h1 {
+        font-size: 60px;
+    }
+}
+```
 
 ## Figma template attribution and license
 
