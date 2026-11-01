@@ -989,7 +989,7 @@ footer .second-line a:hover::after {
 }
 
 /* Keep the desktop composition fluid while the viewport is being resized. */
-@media (min-width: 769px) and (max-width: 1024px) {
+/* @media (min-width: 769px) and (max-width: 1024px) {
     .hero-image {
         width: min(57.5rem, 65vw);
         max-width: 100%;
@@ -1046,10 +1046,7 @@ footer .second-line a:hover::after {
     }
 
     .hero-gallery .img-2 {
-        /* left: 0;
-        top: 45%; */
         left: 0px;
-        /* top: 220px; */
         top: 46%;
     }
 
@@ -1278,7 +1275,7 @@ footer .second-line a:hover::after {
     .navbar-container .navbar-menu li a {
         font-size: 16px;
     }
-}
+} */
 
 /*
 @media(max-width: 880px) {
@@ -1337,172 +1334,8 @@ footer .second-line a:hover::after {
     }
 }
 
-/* @media (max-width: 1470px) { */
-/* .hero-gallery .img-1 {
-        top: 0;
-        right: 2rem;
-        z-index: 3;
-    }
-
-    .hero-gallery .img-2 {
-        top: 12rem;
-        left: 3rem;
-        z-index: 2;
-    }
-
-    .hero-gallery .img-3 {
-        bottom: 2rem;
-        right: 2rem;
-        z-index: 1;
-    } */
-
-/* .hero-gallery .img-1 {
-        top: -27.008px;
-        left: 250px;
-    }
-
-    .hero-gallery .img-2 {
-        left: 8px;
-        /* top: 220px; */
-/* top: 272px;
-    }
-
-    .hero-gallery .img-3 {
-        bottom: 17px;
-        left: 316.66px;
-    }
-} */
-/* 
-@media (max-width: 1430px) {
-
-    .hero-gallery .img-1 {
-        top: -27.008px;
-        left: 230px;
-    }
-
-    .hero-gallery .img-2 {
-        left: 8px;
-        /* top: 220px; */
-/* top: 272px;
-    }
-
-    .hero-gallery .img-3 {
-        bottom: 17px;
-        left: 294px;
-    }
-} */
-
-/* @media (max-width: 1380px) {
-
-    .hero-gallery .img-1 {
-        top: -27.008px;
-        left: 210px;
-    }
-
-    .hero-gallery .img-2 {
-        left: 8px;
-        /* top: 220px; */
-/* top: 272px;
-    } */
-
-/* .hero-gallery .img-3 {
-        bottom: 17px;
-        left: 274px;
-    }
-} */
-/* @media (max-width: 1350px) {
-
-    .hero-gallery .img-1 {
-        top: -27.008px;
-        left: 180px;
-    }
-
-    .hero-gallery .img-2 {
-        left: 8px;
-        /* top: 220px; */
-/*       top: 272px;
-    }
-
-    .hero-gallery .img-3 {
-        bottom: 17px;
-        left: 254px;
-    }
-} */
-/*
-@media (max-width: 1310px) {
-
-    .hero-gallery .img-1 {
-        top: 0px;
-        left: 160px;
-    }
-
-    .hero-gallery .img-2 {
-        left: 8px;
-        /* top: 220px; */
-/* top: 272px;
-    }
-
-    .hero-gallery .img-3 {
-        bottom: 17px;
-        left: 234px;
-    }
-}
-  */
-/*   
-@media (max-width: 1300px) {
-    .full-container h1 {
-        font-size: 70px;
-    }
-
-    .hero {
-        height: auto;
-        min-height: 100vh;
-        /* overflow: hidden; */
-/*   }
-
-    .hero-image {
-        width: 760px;
-    }
-
-    .hero-gallery .img-1 {
-        top: 0px;
-        left: 160px;
-    }
-
-    .hero-gallery .img-2 {
-        left: 8px;
-        /* top: 220px; */
-/*      top: 272px;
-    }
-
-    .hero-gallery .img-3 {
-        bottom: 0px;
-        left: 275px;
-    }
-
-    .hero-content {
-        top: 7.8rem;
-        height: 600px;
-    }
-
-    .hero-content .hero-text {
-        font-size: 25px;
-    }
-
-    .hero-content .order-btn a {
-        font-size: 30px;
-    }
-
-    #BIOCWT-logo {
-        height: 64px;
-    }
-
-    .navbar-container .navbar-menu li a {
-        font-size: 16px;
-    } 
-} */
-
-@media (max-width: 1024px) {
+/* ---- toggle hamburger menu at 1550px ---- */
+@media (max-width: 1150px) {
     .navbar-container .navbar-menu {
         display: none;
         flex-direction: column;
@@ -1536,7 +1369,7 @@ footer .second-line a:hover::after {
 /* below is optimized for abt us section only till 730px */
 /* @media (max-width: 500px) { */
 /* @media (min-width: 600px) and (max-width: 768px) { */
-@media (min-width: 768px) and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     #page-404 {
         min-height: 100vh;
         background-position: center;
@@ -1626,6 +1459,7 @@ footer .second-line a:hover::after {
         height: 500px;
         gap: clamp(1rem, 4vw, 2rem);
         padding: 2rem 4vw;
+        top: 8.5rem;
     }
 
     .hero-copy {
@@ -2179,39 +2013,7 @@ footer .second-line a:hover::after {
     }
 }
 
-/* to be deleted code */
-/* 
-@media (min-width: 427px) and (max-width: 768px) {
-    .adv-text-container {
-        width: min(707px, calc(100vw - 38px));
-        max-width: 100%;
-        padding-right: 0;
-        min-width: 0;
-    }
-
-    .adv-text-container p {
-        width: 100%;
-        max-width: 100%;
-        overflow-wrap: break-word;
-    }
-}
-
-@media (max-width: 480px) {
-    .navbar-container {
-        padding: 0 1rem;
-    }
-
-    .navbar-logo {
-        font-size: 1.7rem;
-    }
-
-    .navbar-container .navbar-menu li a {
-        font-size: 1.2rem;
-        padding: 3px 15px;
-    }
-} */
-
-/* ------- 600px till 685px (small tablets) ----- */
+/* ------- 600px till 768px (small tablets) ----- */
 @media (min-width: 600px) and (max-width: 768px) {
     #page-404 {
         min-height: 100vh;
@@ -2299,6 +2101,7 @@ footer .second-line a:hover::after {
         /* gap: clamp(1rem, 4vw, 2rem); */
         gap: clamp(3rem, 4vw, 2rem);
         padding: 2rem 4vw;
+        top: 8.5rem;
     }
 
     .hero-copy {
@@ -2322,7 +2125,8 @@ footer .second-line a:hover::after {
 
     .hero-content .order-btn {
         margin-top: 64px;
-        padding: 10px auto;
+        /* padding: 10px auto; */
+        padding: clamp(.5rem, 1vw, .688rem) clamp(2rem, 4.4vw, 4.375rem);
     }
 
     .hero-content .order-btn a {
@@ -3600,3 +3404,209 @@ footer .second-line a:hover::after {
         left: 46.4%;
     }
 }
+
+
+
+
+
+
+
+
+
+/* ------------- code to be deleted ------------- */
+/* @media (max-width: 1470px) { */
+/* .hero-gallery .img-1 {
+        top: 0;
+        right: 2rem;
+        z-index: 3;
+    }
+
+    .hero-gallery .img-2 {
+        top: 12rem;
+        left: 3rem;
+        z-index: 2;
+    }
+
+    .hero-gallery .img-3 {
+        bottom: 2rem;
+        right: 2rem;
+        z-index: 1;
+    } */
+
+/* .hero-gallery .img-1 {
+        top: -27.008px;
+        left: 250px;
+    }
+
+    .hero-gallery .img-2 {
+        left: 8px;
+        /* top: 220px; */
+/* top: 272px;
+    }
+
+    .hero-gallery .img-3 {
+        bottom: 17px;
+        left: 316.66px;
+    }
+} */
+/* 
+@media (max-width: 1430px) {
+
+    .hero-gallery .img-1 {
+        top: -27.008px;
+        left: 230px;
+    }
+
+    .hero-gallery .img-2 {
+        left: 8px;
+        /* top: 220px; */
+/* top: 272px;
+    }
+
+    .hero-gallery .img-3 {
+        bottom: 17px;
+        left: 294px;
+    }
+} */
+
+/* @media (max-width: 1380px) {
+
+    .hero-gallery .img-1 {
+        top: -27.008px;
+        left: 210px;
+    }
+
+    .hero-gallery .img-2 {
+        left: 8px;
+        /* top: 220px; */
+/* top: 272px;
+    } */
+
+/* .hero-gallery .img-3 {
+        bottom: 17px;
+        left: 274px;
+    }
+} */
+/* @media (max-width: 1350px) {
+
+    .hero-gallery .img-1 {
+        top: -27.008px;
+        left: 180px;
+    }
+
+    .hero-gallery .img-2 {
+        left: 8px;
+        /* top: 220px; */
+/*       top: 272px;
+    }
+
+    .hero-gallery .img-3 {
+        bottom: 17px;
+        left: 254px;
+    }
+} */
+/*
+@media (max-width: 1310px) {
+
+    .hero-gallery .img-1 {
+        top: 0px;
+        left: 160px;
+    }
+
+    .hero-gallery .img-2 {
+        left: 8px;
+        /* top: 220px; */
+/* top: 272px;
+    }
+
+    .hero-gallery .img-3 {
+        bottom: 17px;
+        left: 234px;
+    }
+}
+  */
+/*   
+@media (max-width: 1300px) {
+    .full-container h1 {
+        font-size: 70px;
+    }
+
+    .hero {
+        height: auto;
+        min-height: 100vh;
+        /* overflow: hidden; */
+/*   }
+
+    .hero-image {
+        width: 760px;
+    }
+
+    .hero-gallery .img-1 {
+        top: 0px;
+        left: 160px;
+    }
+
+    .hero-gallery .img-2 {
+        left: 8px;
+        /* top: 220px; */
+/*      top: 272px;
+    }
+
+    .hero-gallery .img-3 {
+        bottom: 0px;
+        left: 275px;
+    }
+
+    .hero-content {
+        top: 7.8rem;
+        height: 600px;
+    }
+
+    .hero-content .hero-text {
+        font-size: 25px;
+    }
+
+    .hero-content .order-btn a {
+        font-size: 30px;
+    }
+
+    #BIOCWT-logo {
+        height: 64px;
+    }
+
+    .navbar-container .navbar-menu li a {
+        font-size: 16px;
+    } 
+} */
+
+/* to be deleted code */
+/* 
+@media (min-width: 427px) and (max-width: 768px) {
+    .adv-text-container {
+        width: min(707px, calc(100vw - 38px));
+        max-width: 100%;
+        padding-right: 0;
+        min-width: 0;
+    }
+
+    .adv-text-container p {
+        width: 100%;
+        max-width: 100%;
+        overflow-wrap: break-word;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-container {
+        padding: 0 1rem;
+    }
+
+    .navbar-logo {
+        font-size: 1.7rem;
+    }
+
+    .navbar-container .navbar-menu li a {
+        font-size: 1.2rem;
+        padding: 3px 15px;
+    }
+} */
