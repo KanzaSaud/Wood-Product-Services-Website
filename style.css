@@ -1392,6 +1392,8 @@ footer .second-line a:hover::after {
 
     img {
         border-radius: 14px;
+        /* 14px, 120px */
+        /* 42px, 205px */
     }
 
     #BIOCWT-logo {
@@ -1430,32 +1432,32 @@ footer .second-line a:hover::after {
     }
 
     .hero-gallery .img-1 {
-        width: 120px;
-        height: 120px;
+        width: 150px;
+        height: 150px;
         top: 5px;
         right: 0;
         left: auto;
     }
 
     .hero-gallery .img-2 {
-        width: 120px;
-        height: 120px;
+        width: 150px;
+        height: 150px;
         /* left: 0; */
-        left: clamp(-10px, calc(45vw - 370px), 35px);
+        left: clamp(-20px, -18px, 6px);
         top: 50%;
     }
 
     .hero-gallery .img-3 {
-        width: 120px;
-        height: 120px;
+        width: 150px;
+        height: 150px;
         bottom: 0;
         right: 0;
-        left: auto;
+        left: 163px;
     }
 
     .hero-content {
         height: 500px;
-        gap: clamp(1rem, 4vw, 2rem);
+        gap: clamp(3rem, 4vw, 5rem);
         padding: 2rem 4vw;
         top: 8.5rem;
     }
@@ -1496,8 +1498,8 @@ footer .second-line a:hover::after {
     }
 
     .wood-types-container img {
-        height: 120px;
-        width: 120px;
+        height: 150px;
+        width: 150px;
 
         /* border-radius: 42px; */
     }
@@ -1723,6 +1725,7 @@ footer .second-line a:hover::after {
 
     .about-us-gallery #about-us-img-1 {
         width: 135px;
+        /* 180 */
         height: 135px;
         /* top: 298px; */
         top: 60px;
@@ -4879,6 +4882,32 @@ footer .second-line a:hover::after {
         width: 100%;
         max-width: 100%;
         overflow-wrap: break-word;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1024px) {
+    .our-work-container .main-picture {
+        width: min(60.875rem, 65vw);
+        height: auto;
+        aspect-ratio: 60.875 / 40.625;
+    }
+
+    .our-work-arrow-icon {
+        width: clamp(40px, 5vw, 64px);
+        height: auto;
+        margin-left: clamp(12px, 2vw, 30px);
+        margin-right: clamp(12px, 2vw, 30px);
+    }
+
+    .scroll-position-container {
+        width: clamp(45px, 4.1vw, 58.86px);
+        height: clamp(11px, 1vw, 13.42px);
+    }
+
+    .scroll-position-container img {
+        width: clamp(16px, 2vw, 20px);
+        height: auto;
+        top: clamp(-16px, -1.5vw, -12px);
     }
 }
 
