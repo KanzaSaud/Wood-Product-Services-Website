@@ -1334,7 +1334,7 @@ footer .second-line a:hover::after {
     }
 }
 
-@media (min-width: 1025px) and (max-width: 1300px) {
+@media (min-width: 1025px) and (max-width: 1280px) {
     #page-404 {
         min-height: 100vh;
         background-position: center;
