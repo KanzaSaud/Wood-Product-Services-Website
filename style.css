@@ -1864,7 +1864,7 @@ footer .second-line a:hover::after {
     }
 
     .questions-container input {
-        height: clamp(55px, calc(17.74vw - 120px), 77px);
+        height: clamp(55px, calc(17.74vw - 120px), 60px);
     }
 
     .questions-container textarea {
