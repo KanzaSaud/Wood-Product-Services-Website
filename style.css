@@ -1399,17 +1399,24 @@ footer .second-line a:hover::after {
         /* border: 2px solid #fff; */
     }
 
+    .hero-gallery img {
+        /* width: clamp(160px, calc(145px + 2vw), 175px); */
+                left: clamp(-30vw, calc(1.25 * -4.7vw + 3vw), 0px);
+        height: auto;
+        border-radius: 20px;
+    }
+
     .hero-gallery .img-1 {
-        width: 160px;
-        height: 160px;
+        /* width: 160px;
+        height: 160px; */
         top: 5px;
         right: 0;
         left: auto;
     }
 
     .hero-gallery .img-2 {
-        width: 160px;
-        height: 160px;
+        /* width: 160px;
+        height: 160px; */
         /* left: 0; */
         /* left: clamp(-20px, -18px, 6px); */
         left: clamp(-30px, -34px, 6px);
@@ -1417,10 +1424,10 @@ footer .second-line a:hover::after {
     }
 
     .hero-gallery .img-3 {
-        width: 160px;
-        height: 160px;
+        /* width: 160px;
+        height: 160px; */
         bottom: 0;
-        right: 0;
+        right: 1vw;
     }
 
     .hero-content {
