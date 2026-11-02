@@ -1668,15 +1668,19 @@ footer .second-line a:hover::after {
         margin-top: 0px;
     }
 
+    .about-us-container {
+        margin-top: 8rem;
+    }
+
     .about-us-content {
         /* padding: 0 11px; */
         padding: 0 36px 0 19px;
-        margin-top: 42px;
+        margin-top: 45px;
         min-height: 0;
         /* height: 674px; */
-        /* height: 635px; */
+        height: 635px;
         /* height: 600px; */
-        height: 550px;
+        /* height: 550px; */
         /* gap: 24px; */
         /* width: 707px; */
         width: 92%;
@@ -1689,9 +1693,10 @@ footer .second-line a:hover::after {
         width: 420px;
         height: 674px;
         justify-content: center; */
-        padding: 35px 17px;
+        /* padding: 35px 17px; */
+        padding: 35px 17px 35px calc(17px + 5vw);
         gap: 0px;
-        width: 420px;
+        /* width: 420px; */
         height: 80%;
         /* justify-content: space-evenly; */
         justify-content: flex-start;
@@ -1707,7 +1712,7 @@ footer .second-line a:hover::after {
     .about-us-content .about-us-text {
         padding-right: 5px;
         font-size: 20px;
-        width: clamp(283px, 53.67vw, 370px);
+        /* width: clamp(283px, 53.67vw, 370px); */
         padding-left: 13px;
         margin-top: 0px;
     }
@@ -1717,9 +1722,11 @@ footer .second-line a:hover::after {
     }
 
     .about-us-gallery #about-us-img-1 {
-        width: 135px;
+        /* width: 135px; */
         /* 180 */
-        height: 135px;
+        /* height: 135px; */
+        width: clamp(135px, calc(80px + 5vw), 175px);
+        height: clamp(135px, calc(80px + 5vw), 175px);
         /* top: 298px; */
         top: 60px;
         /* left: 200px; */
@@ -1736,11 +1743,17 @@ footer .second-line a:hover::after {
         /* width: 225px;
         height: 225px;
         left: 355px; */
-        width: 200px;
-        height: 200px;
+        /* width: 200px;
+        height: 200px; */
         /* left: 390px; */
-        left: calc(100% - 316px);
-        top: 165px;
+        width: clamp(200px, calc(100px + 10vw), 337px);
+        height: clamp(200px, calc(100px + 10vw), 337px);
+        /* left: calc(100% - 316px); */
+        left: calc(70%);
+        /* left: 100vw - 316px - 5vw; */
+
+        /* left: clamp(700px, calc(500px + 25vw), 850px); */
+        top: 165px + 2vw;
     }
 
     .about-us-gallery #about-us-img-2-back {
@@ -1750,24 +1763,31 @@ footer .second-line a:hover::after {
         height: 225px;
         top: 155px;
         left: 365px; */
-        max-width: 200px;
-        height: 200px;
-        top: 155px;
+        max-width: clamp(200px, calc(100px + 10vw), 337px);
+        height: clamp(200px, calc(100px + 10vw), 337px);
+        /* height: 200px; */
+        top: 155px + 2vw;
         /* left: 400px; */
-        left: calc(100% - 306px);
+        /* left: calc(100% - 306px); */
+        left: calc(71.4%);
+        /* left: 100vw - 306px - 5vw; */
+        /* left: clamp(713px, calc(513px + 25vw), 863px); */
         /* border-left: 2px solid #fff; */
         border-radius: 14px;
         /* z-index: 20; */
     }
 
     .about-us-gallery #about-us-img-3 {
-        width: 135px;
-        height: 135px;
+        /* width: 135px;
+        height: 135px; */
         /* left: 495px; */
         left: calc(100% - 211.55px);
         /* top: 534px; */
         /* top: 445px; */
-        top: 387px;
+        /* top: 387px; */
+        top: 387px + (1vw);
+        width: clamp(135px, calc(80px + 5vw), 175px);
+        height: clamp(135px, calc(80px + 5vw), 175px);
         /* left: 490px; */
         /* top: 534px; */
         /* top: 445px; */
