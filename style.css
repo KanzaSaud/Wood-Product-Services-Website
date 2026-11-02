@@ -1400,8 +1400,7 @@ footer .second-line a:hover::after {
     }
 
     .hero-gallery img {
-        /* width: clamp(160px, calc(145px + 2vw), 175px); */
-                left: clamp(-30vw, calc(1.25 * -4.7vw + 3vw), 0px);
+        width: clamp(160px, calc(145px + 2vw), 175px);
         height: auto;
         border-radius: 20px;
     }
@@ -1419,7 +1418,8 @@ footer .second-line a:hover::after {
         height: 160px; */
         /* left: 0; */
         /* left: clamp(-20px, -18px, 6px); */
-        left: clamp(-30px, -34px, 6px);
+        /* left: clamp(-30px, -34px, 6px); */
+        left: clamp(-30vw, calc(1.25 * -4.7vw + 3vw), 0px);
         top: 50%;
     }
 
