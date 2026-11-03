@@ -1380,7 +1380,7 @@ footer .second-line a:hover::after {
     }
 
     .full-container h1 {
-        font-size: 70px;
+        font-size: 80px;
     }
 
     .hero {
@@ -1459,7 +1459,7 @@ footer .second-line a:hover::after {
     }
 
     .hero-content .order-btn {
-        margin-top: 55px;
+        margin-top: 35px;
         padding: clamp(.5rem, 1vw, .688rem) clamp(2rem, 4.4vw, 4.375rem);
         height: 56px;
     }
@@ -1490,11 +1490,12 @@ footer .second-line a:hover::after {
     }
 
     .wood-types-container h1 {
-        margin-left: 30px;
+        margin-left: 170px;
     }
 
     .wood {
         gap: 26px;
+        width: clamp(245px, calc(245px + 5vw), calc(15vw));
     }
 
     .wood-catalog {
@@ -1537,7 +1538,7 @@ footer .second-line a:hover::after {
     }
 
     .our-work-container h1 {
-        margin-left: 30px;
+        margin-left: 170px;
         /* border: 2px solid #fff; */
     }
 
@@ -1598,7 +1599,7 @@ footer .second-line a:hover::after {
     }
 
     .adv-working-with-us-container h1 {
-        margin-left: 30px;
+        margin-left: 170px;
     }
 
     .adv-img-and-text {
