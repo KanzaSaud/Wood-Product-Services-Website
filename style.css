@@ -636,7 +636,8 @@ button:active,
 .questions-container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    /* height: 100vh; */
+    height: 830px;
     width: 100%;
     /* justify-content: space-around; */
     /* align-content: center; */
@@ -688,7 +689,7 @@ button:active,
     position: absolute;
     right: clamp(2rem, 5.21vw, 75px);
     /* bottom: -10.42vw; */
-    bottom: -12.42vw;
+    bottom: -180px;
     z-index: 1;
 }
 
@@ -2551,6 +2552,7 @@ footer .second-line a:hover::after {
 
     .questions-container {
         height: 80vh;
+        /* height: 830px; */
         padding: 0 10px 0 50px;
         gap: 22px;
     }
@@ -2599,6 +2601,7 @@ footer .second-line a:hover::after {
         /* max-width: calc(100% - 90px); */
         right: 45px;
         left: auto;
+        bottom: -80px;
     }
 
     .questions-text {
