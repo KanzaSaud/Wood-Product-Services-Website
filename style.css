@@ -5660,10 +5660,26 @@ footer .second-line a:hover::after {
         gap: 10px;
     }
 
+    .contact-right {
+        width: 45%;
+    }
+
+    .location-map{
+        padding-top: 30px;
+    }
+
     .contact-right img {
+        display: block;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 347 / 230;
+        object-fit: cover;
+    }
+
+    /* .contact-right img {
         width: 347px;
         height: 230px;
-    }
+    } */
 
     footer {
         width: 100%;
