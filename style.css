@@ -2204,7 +2204,7 @@ footer .second-line a:hover::after {
 }
 
 
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
     .page-404 {
         min-height: 100vh;
         background-position: center;
@@ -3042,7 +3042,7 @@ footer .second-line a:hover::after {
     }
 }
 
-@media (min-width: 900px) and (max-width: 1024px) {
+@media (min-width: 900px) and (max-width: 1023px) {
     .page-404 {
         min-height: 100vh;
         background-position: center;
