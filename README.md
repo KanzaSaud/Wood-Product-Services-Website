@@ -90,3 +90,7 @@ This license notice applies only to the referenced Figma template/design. Copyri
 ## License notice
 
 Copyright in the website source code and original implementation is retained by the developer. All rights reserved unless expressly stated otherwise. No separate open-source license is granted for the source code by this README. Before redistributing the complete project, verify the rights for the Figma template, fonts, photographs, icons, and all other included assets.
+
+##Timeline details
+Project Start Date: 21 Oct 2026 (09:24pm GMT+3:00)
+Project End Date: 05 Nov 2026 (1:07am GMT+3:00)
