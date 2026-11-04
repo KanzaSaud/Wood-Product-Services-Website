@@ -6480,6 +6480,18 @@ footer .second-line a:hover::after {
     #img-404 {
         height: 1188px;
     }
+
+    .contact-right {
+        width: 40%;
+    }
+
+    .contact-right img {
+        display: block;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 347 / 230;
+        object-fit: cover;
+    }
 }
 
 /* @media (max-width: 1470px) { */
