@@ -1434,7 +1434,9 @@ footer .second-line a:hover::after {
         /* width: 160px;
         height: 160px; */
         bottom: 0;
-        right: 1vw;
+        /* right: 1vw; */
+        right: auto;
+        left: calc(163px + 7vw);
     }
 
     .hero-content {
@@ -2187,7 +2189,9 @@ footer .second-line a:hover::after {
         /* width: 160px;
         height: 160px; */
         bottom: 0;
-        right: 1vw;
+        /* right: 1vw; */
+        right: auto;
+        left: calc(163px + 2vw);
     }
 
     .hero-content {
