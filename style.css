@@ -6213,6 +6213,23 @@ footer .second-line a:hover::after {
 
 
 /* ------------- code to be deleted ------------- */
+
+/* Keep the desktop composition at its 1521px proportions on very wide screens. */
+@media (min-width: 1701px) {
+    .hero-content {
+        width: min(1323px, calc(100vw - 48px));
+        right: 50%;
+        transform: translateX(50%);
+        box-sizing: border-box;
+    }
+
+    .about-us-content {
+        width: min(1320px, calc(100vw - 48px));
+        margin-inline: auto;
+        box-sizing: border-box;
+    }
+}
+
 /* @media (max-width: 1470px) { */
 /* .hero-gallery .img-1 {
         top: 0;
