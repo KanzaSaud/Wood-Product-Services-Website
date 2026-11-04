@@ -6512,8 +6512,78 @@ footer .second-line a:hover::after {
         left: 72%;
     }
 
+
+    .about-us-container {
+        min-height: 100svh;
+        display: flex;
+        align-items: center;
+    }
+
     .about-us-content {
-        /* width: min(1320px, calc(100vw - 48px)); */
+        width: min(82vw, 2200px);
+        height: clamp(820px, 72vh, 1120px);
+        padding: clamp(70px, 4vw, 120px) clamp(70px, 5vw, 140px);
+        gap: clamp(50px, 5vw, 130px);
+        border-radius: 43px;
+    }
+
+    .about-us-copy {
+        flex: 0 1 46%;
+        padding-left: clamp(60px, 8vw, 210px);
+        padding-right: 0;
+        gap: clamp(45px, 4vw, 80px);
+    }
+
+    .about-us-copy h1 {
+        font-size: clamp(55px, 4vw, 100px);
+    }
+
+    .about-us-content .about-us-text {
+        width: min(100%, 700px);
+        font-size: clamp(30px, 1.35vw, 48px);
+    }
+
+    .line-break-abt{
+        display: none;
+    }
+
+    .about-us-gallery #about-us-img-1,
+    .about-us-gallery #about-us-img-3 {
+        width: clamp(220px, 12vw, 360px);
+        height: auto;
+        aspect-ratio: 1;
+        object-fit: cover;
+    }
+
+    .about-us-gallery #about-us-img-1 {
+        top: 8%;
+        right: 7%;
+    }
+
+    .about-us-gallery #about-us-img-2,
+    .about-us-gallery #about-us-img-2-back {
+        width: clamp(360px, 20vw, 600px);
+        height: auto;
+        aspect-ratio: 1;
+        object-fit: cover;
+    }
+
+    .about-us-gallery #about-us-img-2 {
+        top: 27%;
+        left: 57%;
+    }
+
+    .about-us-gallery #about-us-img-2-back {
+        top: 26%;
+        left: 58.2%;
+    }
+
+    .about-us-gallery #about-us-img-3 {
+        bottom: 8%;
+        right: 3%;
+    }
+
+    /* .about-us-content {
         width: 90vw;
         left: -5%;
         margin-inline: auto;
@@ -6525,7 +6595,6 @@ footer .second-line a:hover::after {
         width: 205px;
         position: absolute;
         top: 4.688rem;
-        /* right: 3.125rem; */
         left: 1065px;
         z-index: 2;
     }
@@ -6553,9 +6622,8 @@ footer .second-line a:hover::after {
         width: 205px;
         position: absolute;
         bottom: 2.688rem;
-        /* right: 5.125rem; */
         left: 1033px;
-    }
+    } */
 
     footer {
         width: 100%;
@@ -6646,6 +6714,71 @@ footer .second-line a:hover::after {
     .hero-gallery .img-3 {
         bottom: 0;
         left: 72%;
+    }
+
+    .about-us-container {
+        min-height: 100svh;
+        display: flex;
+        align-items: center;
+    }
+
+    .about-us-content {
+        width: min(82vw, 2200px);
+        height: clamp(820px, 72vh, 1120px);
+        padding: clamp(70px, 4vw, 120px) clamp(70px, 5vw, 140px);
+        gap: clamp(50px, 5vw, 130px);
+    }
+
+    .about-us-copy {
+        flex: 0 1 46%;
+        padding-left: clamp(60px, 8vw, 210px);
+        padding-right: 0;
+        gap: clamp(45px, 4vw, 80px);
+    }
+
+    .about-us-copy h1 {
+        font-size: clamp(55px, 4vw, 100px);
+    }
+
+    .about-us-content .about-us-text {
+        width: min(100%, 700px);
+        font-size: clamp(30px, 1.35vw, 48px);
+    }
+
+    .about-us-gallery #about-us-img-1,
+    .about-us-gallery #about-us-img-3 {
+        width: clamp(220px, 12vw, 360px);
+        height: auto;
+        aspect-ratio: 1;
+        object-fit: cover;
+    }
+
+    .about-us-gallery #about-us-img-1 {
+        top: 8%;
+        right: 7%;
+    }
+
+    .about-us-gallery #about-us-img-2,
+    .about-us-gallery #about-us-img-2-back {
+        width: clamp(360px, 20vw, 600px);
+        height: auto;
+        aspect-ratio: 1;
+        object-fit: cover;
+    }
+
+    .about-us-gallery #about-us-img-2 {
+        top: 27%;
+        left: 57%;
+    }
+
+    .about-us-gallery #about-us-img-2-back {
+        top: 26%;
+        left: 58.2%;
+    }
+
+    .about-us-gallery #about-us-img-3 {
+        bottom: 8%;
+        right: 3%;
     }
 }
 
