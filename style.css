@@ -52,8 +52,9 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 0 108px;
-    padding: 0 max(108px, 8vw);
+    /* padding: 0 108px;
+    padding: 0 max(108px, 8vw); */
+    padding: 0 108px 0 54px;
     /* padding: 0 6.75rem; */
     max-width: 1600px;
     /* border: solid 1px black; */
@@ -6219,18 +6220,59 @@ footer .second-line a:hover::after {
 /* ------------- code to be deleted ------------- */
 
 /* Keep the desktop composition at its 1521px proportions on very wide screens. */
-@media (min-width: 1701px) {
+@media (min-width: 1700px) {
     .hero-content {
-        width: min(1323px, calc(100vw - 48px));
-        right: 50%;
+        /* width: min(1323px, calc(100vw - 48px));
+        right: 50%; */
+        width: 90vw;
+        left: -30%;
         transform: translateX(50%);
         box-sizing: border-box;
     }
 
     .about-us-content {
-        width: min(1320px, calc(100vw - 48px));
+        /* width: min(1320px, calc(100vw - 48px)); */
+        width: 90vw;
+        left: -5%;
         margin-inline: auto;
         box-sizing: border-box;
+    }
+
+    .about-us-gallery #about-us-img-1 {
+        height: 205px;
+        width: 205px;
+        position: absolute;
+        top: 4.688rem;
+        /* right: 3.125rem; */
+        left: 1065px;
+        z-index: 2;
+    }
+
+    .about-us-gallery #about-us-img-2 {
+        height: 337px;
+        width: 337px;
+        position: absolute;
+        top: 177px;
+        left: 850px;
+        z-index: 4;
+    }
+
+    .about-us-gallery #about-us-img-2-back {
+        height: 337px;
+        width: 337px;
+        position: absolute;
+        top: 167px;
+        left: 863px;
+        z-index: 3;
+    }
+
+    .about-us-gallery #about-us-img-3 {
+        height: 205px;
+        width: 205px;
+        position: absolute;
+        bottom: 2.688rem;
+        /* right: 5.125rem; */
+        left: 1033px;
     }
 }
 
