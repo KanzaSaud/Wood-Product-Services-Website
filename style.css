@@ -1343,7 +1343,7 @@ footer .second-line a:hover::after {
 }
 
 @media (min-width: 1281px) and (max-width: 1520px) {
-    #page-404 {
+    .page-404 {
         min-height: 100vh;
         background-position: center;
     }
@@ -1995,11 +1995,13 @@ footer .second-line a:hover::after {
 
     .container-404 img {
         height: 110px;
+
     }
 
     #img-404 {
         z-index: -1;
-        height: 715px;
+        height: 100vh;
+        width: calc(463px + 15vw);
     }
 
     #graphics-404 {
@@ -2176,7 +2178,7 @@ footer .second-line a:hover::after {
 
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-    #page-404 {
+    .page-404 {
         min-height: 100vh;
         background-position: center;
     }
@@ -3014,7 +3016,7 @@ footer .second-line a:hover::after {
 }
 
 @media (min-width: 900px) and (max-width: 1024px) {
-    #page-404 {
+    .page-404 {
         min-height: 100vh;
         background-position: center;
     }
@@ -3698,7 +3700,7 @@ footer .second-line a:hover::after {
 }
 
 @media (min-width: 800px) and (max-width: 900px) {
-    #page-404 {
+    .page-404 {
         min-height: 100vh;
         background-position: center;
     }
@@ -4343,7 +4345,7 @@ footer .second-line a:hover::after {
 
 /* @media (min-width: 600px) and (max-width: 768px) { */
 @media (min-width: 768px) and (max-width: 800px) {
-    #page-404 {
+    .page-404 {
         min-height: 100vh;
         background-position: center;
     }
@@ -4988,7 +4990,7 @@ footer .second-line a:hover::after {
 
 /* ------- 600px till 768px (small tablets) ----- */
 @media (min-width: 600px) and (max-width: 768px) {
-    #page-404 {
+    .page-404 {
         min-height: 100vh;
         background-position: center;
     }
@@ -6390,6 +6392,10 @@ footer .second-line a:hover::after {
 
 /* Keep the desktop composition at its 1521px proportions on very wide screens. */
 @media (min-width: 1700px) {
+    body {
+        overflow-x: hidden;
+    }
+
     .hero-content {
         /* width: min(1323px, calc(100vw - 48px));
         right: 50%; */
@@ -6442,6 +6448,22 @@ footer .second-line a:hover::after {
         bottom: 2.688rem;
         /* right: 5.125rem; */
         left: 1033px;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .page-404 {
+        background-image: url("resources/404-bg.svg");
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: 100% 100%;
+        /* background-size: cover; */
+    }
+
+    #img-404 {
+        height: 715px;
     }
 }
 
