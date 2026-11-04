@@ -6396,6 +6396,10 @@ footer .second-line a:hover::after {
         overflow-x: hidden;
     }
 
+    .navbar-container {
+        min-width: 100%;
+    }
+
     .hero-content {
         /* width: min(1323px, calc(100vw - 48px));
         right: 50%; */
@@ -6459,11 +6463,11 @@ footer .second-line a:hover::after {
         background-repeat: no-repeat;
         background-position: top center;
         background-size: 100% 100%;
-        /* background-size: cover; */
+        background-size: cover;
     }
 
     #img-404 {
-        height: 715px;
+        height: 1188px;
     }
 }
 
