@@ -52,7 +52,9 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 0 6.75rem;
+    padding: 0 108px;
+    padding: 0 max(108px, 8vw);
+    /* padding: 0 6.75rem; */
     max-width: 1600px;
     /* border: solid 1px black; */
 }
@@ -265,7 +267,8 @@ img {
 
 .hero-gallery .img-1 {
     top: -1.688rem;
-    right: 4rem;
+    /* right: 4rem; */
+    left: 270px;
 }
 
 .hero-gallery .img-2 {
@@ -276,7 +279,8 @@ img {
 
 .hero-gallery .img-3 {
     bottom: 17px;
-    right: 0px;
+    /* right: 0px; */
+    left: 335px;
 }
 
 /* ---------- Wood Types ---------- */
