@@ -831,7 +831,8 @@ button a {
 .container-404 {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    /* min-height: 700px; */
+    height: 845px;
     /* border: 2px solid #fff; */
     margin-top: 2rem;
     /* justify-content: center; */
@@ -1998,6 +1999,7 @@ footer .second-line a:hover::after {
 
     #img-404 {
         z-index: -1;
+        height: 715px;
     }
 
     #graphics-404 {
@@ -2045,6 +2047,82 @@ footer .second-line a:hover::after {
     }
 
     footer {
+        padding: 70px 102px;
+        display: flex;
+        flex-direction: column;
+        gap: 58px;
+        box-shadow: 0 4px 52px 0 #f5f5f52b;
+        position: relative;
+        background-color: #222021;
+        z-index: 2;
+    }
+
+    footer .first-line {
+        display: flex;
+        gap: 70px;
+        position: relative;
+        /* align-items: flex-start; */
+        /* border: 2px solid #fff; */
+        /* height: 100px; */
+        /* width: 100%; */
+    }
+
+    .contact-info {
+        /* position: absolute; */
+        /* top: 0; */
+        display: flex;
+        gap: 14px;
+        align-items: center;
+        font-family: 'Inter';
+        color: #F5F5F5;
+        font-size: 30px;
+        /* margin-top: 1.25rem; */
+        line-height: 139.4%;
+        /* border: 2px solid #fff; */
+
+    }
+
+    footer #phone-call-info {
+        margin-right: 100px;
+    }
+
+    .footer-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    footer .second-line a {
+        align-items: center;
+        font-family: 'Inter';
+        color: #F5F5F5;
+        font-size: 20px;
+        /* margin-top: 1.25rem; */
+        line-height: 139.4%;
+        text-decoration: none;
+        font-weight: 500;
+        /* border: 2px solid #fff; */
+        position: relative;
+        display: inline-block;
+    }
+
+    footer .second-line a::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        width: 100%;
+        height: 2px;
+        background-color: #F5F5F5;
+        transform: scaleX(0);
+        transform-origin: center;
+        transition: transform .3s ease;
+    }
+
+    footer .second-line a:hover::after {
+        transform: scaleX(1);
+    }
+
+    /* footer {
         width: 100%;
         height: 352px;
         padding: 0;
@@ -2056,19 +2134,19 @@ footer .second-line a:hover::after {
         flex-direction: column;
         align-items: center;
         gap: 0px;
-    }
+    } */
 
     footer .first-line #BIOCWT-logo {
         height: 69px;
         margin-bottom: 42px;
     }
 
-    .contact-info {
+    /* .contact-info {
         gap: 10px;
         margin-bottom: 16px;
         justify-self: center;
         /* font-size: 15px; */
-        font-size: 20px;
+    /*   font-size: 20px;
 
     }
 
@@ -2083,7 +2161,7 @@ footer .second-line a:hover::after {
     .footer-icon {
         /* width: 24px;
         height: 24px; */
-        width: 30px;
+    /*    width: 30px;
         height: 30px;
     }
 
@@ -2093,7 +2171,7 @@ footer .second-line a:hover::after {
 
     footer .second-line a {
         font-size: 15px;
-    }
+    } */
 }
 
 
@@ -2738,7 +2816,6 @@ footer .second-line a:hover::after {
     }
 
     .contact-content-container {
-        /* flex-direction: column; */
         gap: 48px;
     }
 
@@ -2761,6 +2838,82 @@ footer .second-line a:hover::after {
     }
 
     footer {
+        padding: 70px 102px;
+        display: flex;
+        flex-direction: column;
+        gap: 58px;
+        box-shadow: 0 4px 52px 0 #f5f5f52b;
+        position: relative;
+        background-color: #222021;
+        z-index: 2;
+    }
+
+    footer .first-line {
+        display: flex;
+        gap: 70px;
+        position: relative;
+        /* align-items: flex-start; */
+        /* border: 2px solid #fff; */
+        /* height: 100px; */
+        /* width: 100%; */
+    }
+
+    .contact-info {
+        /* position: absolute; */
+        /* top: 0; */
+        display: flex;
+        gap: 14px;
+        align-items: center;
+        font-family: 'Inter';
+        color: #F5F5F5;
+        font-size: 20px;
+        /* margin-top: 1.25rem; */
+        line-height: 139.4%;
+        /* border: 2px solid #fff; */
+
+    }
+
+    footer #phone-call-info {
+        margin-right: 70px;
+    }
+
+    .footer-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    footer .second-line a {
+        align-items: center;
+        font-family: 'Inter';
+        color: #F5F5F5;
+        font-size: 20px;
+        /* margin-top: 1.25rem; */
+        line-height: 139.4%;
+        text-decoration: none;
+        font-weight: 500;
+        /* border: 2px solid #fff; */
+        position: relative;
+        display: inline-block;
+    }
+
+    footer .second-line a::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        width: 100%;
+        height: 2px;
+        background-color: #F5F5F5;
+        transform: scaleX(0);
+        transform-origin: center;
+        transition: transform .3s ease;
+    }
+
+    footer .second-line a:hover::after {
+        transform: scaleX(1);
+    }
+
+    /* footer {
         width: 100%;
         height: 352px;
         padding: 0;
@@ -2772,9 +2925,28 @@ footer .second-line a:hover::after {
         flex-direction: column;
         align-items: center;
         gap: 0px;
-    }
+    } */
 
     footer .first-line #BIOCWT-logo {
+        height: 69px;
+        margin-bottom: 42px;
+    }
+
+    /* footer {
+        width: 100%;
+        height: 352px;
+        padding: 0;
+        padding-top: 72px;
+        gap: 0px;
+    }
+
+    footer .first-line {
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+    } */
+
+    /* footer .first-line #BIOCWT-logo {
         height: 69px;
         margin-bottom: 42px;
     }
@@ -2783,7 +2955,6 @@ footer .second-line a:hover::after {
         gap: 10px;
         margin-bottom: 16px;
         justify-self: center;
-        /* font-size: 15px; */
         font-size: 20px;
 
     }
@@ -2797,8 +2968,6 @@ footer .second-line a:hover::after {
     }
 
     .footer-icon {
-        /* width: 24px;
-        height: 24px; */
         width: 30px;
         height: 30px;
     }
@@ -2809,7 +2978,7 @@ footer .second-line a:hover::after {
 
     footer .second-line a {
         font-size: 15px;
-    }
+    } */
 }
 
 /* ---- toggle hamburger menu at 1550px ---- */
