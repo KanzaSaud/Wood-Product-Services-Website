@@ -2043,6 +2043,17 @@ footer .second-line a:hover::after {
         gap: 10px;
     }
 
+    .contact-right{
+        height: 285px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .location-map{
+        padding-top: 55px;
+    }
+
     .contact-right img {
         width: 347px;
         height: 230px;
