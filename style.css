@@ -2043,7 +2043,7 @@ footer .second-line a:hover::after {
         gap: 10px;
     }
 
-    .contact-right{
+    /* .contact-right{
         height: 285px;
         display: flex;
         flex-direction: column;
@@ -2057,6 +2057,22 @@ footer .second-line a:hover::after {
     .contact-right img {
         width: 347px;
         height: 230px;
+    } */
+
+    .contact-right {
+        width: 30%;
+    }
+
+    .location-map{
+        padding-top: 30px;
+    }
+
+    .contact-right img {
+        display: block;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 347 / 230;
+        object-fit: cover;
     }
 
     footer {
